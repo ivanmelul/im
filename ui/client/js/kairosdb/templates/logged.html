@@ -1,0 +1,69 @@
+<div ng-controller="kairosnavbarController">
+	<header class="container-fluid Header">
+		<div class="Logo pull-left">
+			<h1 title="TURN">TURN</h1>
+			<h2 title="Moab Dashboard Composer">Moab Dashboard Composer</h2>
+		</div>
+
+		<nav class="pull-right">
+			<ul class="TopMenu">
+				<li class="User">
+				<span class="UserName"><em>Logged as:</em> <strong>{{username}}</strong></span>
+				<span class="Logout"><a ng-click="logout()" href="">(logout)</a></span>				
+				</li>
+				<li class="MainMenu">					
+					<form role="search">
+						<div class="Combo">
+							<input type="text" ng-model="searchDashboards" placeholder="Search dashboards" id="searchDashboards">
+							<a ng-click="listAll()"><i class="fa fa-caret-down"></i></a>
+						</div>
+
+						<div ng-if="searchDashboardsList.length > 0 || searchDashboards.length > 0" class="MenuCombo" ng-mouseleave="hideList()" >
+							<ul>
+								<li ng-show="searchDashboardsList.length > 0" class="open">
+									<ul>
+										<div ng-if="myDashboards.length > 0" ><li class="Title"><h5>My Dashboards</h5></li></div>
+										<li ng-repeat="dashboardsFind in myDashboards = (searchDashboardsList | filter:{ username_created : username})" class="dashboardsFind">
+											<a type="button" tabindex="-1" class="ajax" ng-click="selectDashboardButton(dashboardsFind)" data-toggle="modal" data-target="changesModal">
+											<span ng-show="dashboardsFind.status == 'private'" ><i class="fa fa-lock changeColor"></i></span>
+											<span ng-show="dashboardsFind.status == 'public'" ><i class="fa fa-unlock-alt changeColor"></i></span>
+											{{dashboardsFind.title}}
+											</a>
+										</li>
+										<div ng-if="publics.length > 0" ><li><h5>Public</h5></li></div>
+										<li ng-repeat="dashboardsFind in publics = (searchDashboardsList | filter:{username_created: '!'+username, status : 'public'})" class="dashboardsFind">
+											<a type="button" tabindex="-1" class="ajax" ng-click="selectDashboardButton(dashboardsFind)" data-toggle="modal" data-target="changesModal">
+											<span ng-show="dashboardsFind.status == 'private'" ><i class="fa fa-lock changeColor"></i></span>
+											<span ng-show="dashboardsFind.status == 'public'" ><i class="fa fa-unlock-alt changeColor"></i></span>
+											{{dashboardsFind.title}}
+											</a>
+										</li>
+									</ul>
+								</li>								
+								<li ng-show="searchDashboardsList.length <= 0"  class="Title"><h5>No Results</h5></li>
+							</ul>
+						</div>
+					</form>
+
+				</li>
+				<li class="Actions">
+					<i class="fa fa-file ActionIcon" ng-model="modalId" ng-click="newDashboardButton()" data-toggle="modal" data-target="changesModal" tooltip="New Dashboard" tooltip-placement="bottom"></i>
+
+					<i class="fa fa-save ActionIcon {{canSave() ? 'highlight':''}}" ng-click="save()" tooltip="Save Dashboard" tooltip-placement="bottom"></i>
+
+					<i class="fa fa-copy ActionIcon" ng-click="duplicate()" tooltip="Duplicate Dashboard" tooltip-placement="bottom"></i>
+
+					<i class="fa fa-adjust ActionIcon" ng-click="changeTheme()" tooltip="Change Theme" tooltip-placement="bottom"></i>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<saved-alert visible="showAlert" message="message_alert" time="5000" type="message_type"></saved-alert>
+	
+  	<div ng-if="current_dashboard!=''" class="container-fluid Dashboard">
+		<dashboard dashboard="current_dashboard" username='username' ></dashboard>
+	</div>
+	
+	
+</div>

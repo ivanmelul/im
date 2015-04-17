@@ -1,0 +1,43 @@
+<div ng-controller="kairosuiController" class="inline">
+
+	<!-- Kairos UI Module for metric: -->
+	<span class="MetricName" ng-if="metric.serie.length>0">{{metric.serie}}
+		<span class="EditMetricName">
+			<i ng-click="changeMetric()" class="fa fa-pencil" tooltip="Edit name"></i>
+		</span>
+	</span>
+
+	<div ng-show="!metric.serie.length">
+		<form class="navbar-form" role="search">
+			<div class="SearchBox">
+				<input type="text" class="metricName" ng-model="searchSeries" placeholder="Search series by name" ng-focus="true">
+			</div>
+			<div ng-if="seriesList.length > 0" style="position:absolute;height:100%;z-index:10;">
+				<ul class="nav navbar-nav usersSearch">
+					<li class="dropdown active open">
+						<ul class="dropdown-menu">
+							<li ng-repeat="seriesFind in seriesList" class="seriesFind">
+								<a type="button" tabindex="-1" class="ajax" ng-click="selectSerie(seriesFind)">{{seriesFind}}</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</form>
+	</div>
+
+	<div class="MetricsOptions" ng-if="metric.serie.length>0">
+
+		<tabset>
+			<tab ng-repeat="tab in tabs">
+				<tab-heading ng-bind-html="getTabHeading(tab)"></tab-heading>
+				<div ng-if="tab != 'Json'" ng-include src="getTemplateTab(tab)"></div>
+				<button ng-if="tab == 'Json'" clip-copy="getJsonToCopy()" clip-click="" class="btn btn-default" style="float:right;">Copy</button>		
+				<textarea rows="10" cols="40" ng-if="tab == 'Json'">{{metric.queryJson}}</textarea>
+
+			</tab>
+		</tabset>		
+
+	</div>
+
+</div>

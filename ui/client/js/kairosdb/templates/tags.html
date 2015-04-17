@@ -1,0 +1,19 @@
+<div class="Bubbles">
+	<ul>
+		
+		<li ng-repeat="(tag,values) in tagsList">
+
+			<span class="BubbleName">{{tag}}</span>
+
+			<span class="BubbleGroup">
+
+			<ul class="tags">
+				<li ng-repeat="value in values" ng-click="manageTag(tag,value)" ng-show="value.length>0" style="color:{{metric.tags[tag].indexOf(value) == -1 ? '#6a6a6a':'#ff5e26'}}; border-color:{{metric.tags[tag].indexOf(value) == -1 ? '#c6c6c6':'#ff5e26'}}; background-color:{{metric.tags[tag].indexOf(value) == -1 ? '#fff':'rgba(246,93,50,0.1)'}};" class="tag" >
+					{{value}}
+				</li>
+			</ul>
+			</span>
+		</li>
+
+	</ul>
+</div>

@@ -1,0 +1,29 @@
+<div ng-controller="loginController">
+    <header class="container-fluid Header">
+        <div class="Logo pull-left">
+            <h1 title="TURN">TURN</h1>
+            <h2 title="Moab Dashboard Composer">Moab Dashboard Composer</h2>
+        </div>
+
+        <nav class="pull-right">
+            <ul class="TopMenu">
+                <li class="User">
+                    <form ng-submit="submit()" method="post" class="login_form">
+                        <div>
+                            <input type="text" name="username" id="username" placeholder="Username"/>
+                        </div>
+                        <div>
+                            <input type="password" name="password" id="password" placeholder="Password"/>
+                        </div>
+                        <div>
+                            <input type="submit" value="Log In"/>
+                        </div>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header> 
+    <div>
+        <saved-alert visible="showAlert" message="message_alert" time="5000" type="message_type"></saved-alert>
+    </div>   
+</div>

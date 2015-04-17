@@ -1,0 +1,24 @@
+Download KairosDB and run service
+
+Install node js
+Install gem
+Install npm
+Install bower
+Install mongodb
+Install foreman
+
+Create DB @ mongo
+1) mongo 2) use turn (dbname)
+
+Clone repo, cd /moab
+
+cd /ui
+1) grunt 2) npm install 3) npm-rebuild
+cd /api
+1) grunt 2) npm install 3) npm-rebuild
+
+cd /moab
+API_PORT=9877 UI_PORT=9878 foreman start
+
+You can change the dbname at /ui/server.js
+

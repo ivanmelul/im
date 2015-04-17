@@ -1,0 +1,893 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'rebuild' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 verbose node symlink /usr/bin/node
+5 info readInstalled object
+6 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui', 'moab-ui@0.0.1' ]
+7 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express',
+7 verbose rebuild   'express@3.17.6' ]
+8 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/basic-auth',
+8 verbose rebuild   'basic-auth@1.0.0' ]
+9 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect',
+9 verbose rebuild   'connect@2.26.4' ]
+10 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/basic-auth-connect',
+10 verbose rebuild   'basic-auth-connect@1.0.0' ]
+11 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/body-parser',
+11 verbose rebuild   'body-parser@1.8.4' ]
+12 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/bytes',
+12 verbose rebuild   'bytes@1.0.0' ]
+13 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/depd',
+13 verbose rebuild   'depd@0.4.5' ]
+14 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/body-parser/node_modules/iconv-lite',
+14 verbose rebuild   'iconv-lite@0.4.4' ]
+15 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/media-typer',
+15 verbose rebuild   'media-typer@0.3.0' ]
+16 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/body-parser/node_modules/on-finished',
+16 verbose rebuild   'on-finished@2.1.0' ]
+17 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first',
+17 verbose rebuild   'ee-first@1.0.5' ]
+18 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/qs',
+18 verbose rebuild   'qs@2.2.4' ]
+19 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/body-parser/node_modules/raw-body',
+19 verbose rebuild   'raw-body@1.3.0' ]
+20 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/type-is',
+20 verbose rebuild   'type-is@1.5.2' ]
+21 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/type-is/node_modules/mime-types',
+21 verbose rebuild   'mime-types@2.0.2' ]
+22 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/type-is/node_modules/mime-types/node_modules/mime-db',
+22 verbose rebuild   'mime-db@1.1.0' ]
+23 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/cookie',
+23 verbose rebuild   'cookie@0.1.2' ]
+24 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/cookie-parser',
+24 verbose rebuild   'cookie-parser@1.3.3' ]
+25 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/cookie-signature',
+25 verbose rebuild   'cookie-signature@1.0.5' ]
+26 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/compression',
+26 verbose rebuild   'compression@1.1.0' ]
+27 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/compression/node_modules/accepts',
+27 verbose rebuild   'accepts@1.1.1' ]
+28 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/compression/node_modules/accepts/node_modules/mime-types',
+28 verbose rebuild   'mime-types@2.0.2' ]
+29 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/compression/node_modules/accepts/node_modules/mime-types/node_modules/mime-db',
+29 verbose rebuild   'mime-db@1.1.0' ]
+30 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/compression/node_modules/accepts/node_modules/negotiator',
+30 verbose rebuild   'negotiator@0.4.8' ]
+31 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/compression/node_modules/compressible',
+31 verbose rebuild   'compressible@2.0.1' ]
+32 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/compression/node_modules/compressible/node_modules/mime-db',
+32 verbose rebuild   'mime-db@1.1.0' ]
+33 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/debug',
+33 verbose rebuild   'debug@2.0.0' ]
+34 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/debug/node_modules/ms',
+34 verbose rebuild   'ms@0.6.2' ]
+35 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/on-headers',
+35 verbose rebuild   'on-headers@1.0.0' ]
+36 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/vary',
+36 verbose rebuild   'vary@1.0.0' ]
+37 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/connect-timeout',
+37 verbose rebuild   'connect-timeout@1.3.0' ]
+38 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/connect-timeout/node_modules/ms',
+38 verbose rebuild   'ms@0.6.2' ]
+39 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/csurf',
+39 verbose rebuild   'csurf@1.6.1' ]
+40 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/csurf/node_modules/csrf',
+40 verbose rebuild   'csrf@2.0.1' ]
+41 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/csurf/node_modules/csrf/node_modules/rndm',
+41 verbose rebuild   'rndm@1.0.0' ]
+42 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/csurf/node_modules/csrf/node_modules/scmp',
+42 verbose rebuild   'scmp@0.0.3' ]
+43 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/csurf/node_modules/csrf/node_modules/uid-safe',
+43 verbose rebuild   'uid-safe@1.0.1' ]
+44 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/csurf/node_modules/csrf/node_modules/uid-safe/node_modules/mz',
+44 verbose rebuild   'mz@1.0.1' ]
+45 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/csurf/node_modules/csrf/node_modules/uid-safe/node_modules/mz/node_modules/native-or-bluebird',
+45 verbose rebuild   'native-or-bluebird@1.1.1' ]
+46 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/csurf/node_modules/csrf/node_modules/base64-url',
+46 verbose rebuild   'base64-url@1.0.0' ]
+47 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/errorhandler',
+47 verbose rebuild   'errorhandler@1.2.0' ]
+48 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/errorhandler/node_modules/accepts',
+48 verbose rebuild   'accepts@1.1.1' ]
+49 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/errorhandler/node_modules/accepts/node_modules/mime-types',
+49 verbose rebuild   'mime-types@2.0.2' ]
+50 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/errorhandler/node_modules/accepts/node_modules/mime-types/node_modules/mime-db',
+50 verbose rebuild   'mime-db@1.1.0' ]
+51 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/errorhandler/node_modules/accepts/node_modules/negotiator',
+51 verbose rebuild   'negotiator@0.4.8' ]
+52 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/escape-html',
+52 verbose rebuild   'escape-html@1.0.1' ]
+53 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/express-session',
+53 verbose rebuild   'express-session@1.8.2' ]
+54 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/crc',
+54 verbose rebuild   'crc@3.0.0' ]
+55 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/parseurl',
+55 verbose rebuild   'parseurl@1.3.0' ]
+56 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/express-session/node_modules/uid-safe',
+56 verbose rebuild   'uid-safe@1.0.1' ]
+57 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/express-session/node_modules/uid-safe/node_modules/mz',
+57 verbose rebuild   'mz@1.0.1' ]
+58 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/express-session/node_modules/uid-safe/node_modules/mz/node_modules/native-or-bluebird',
+58 verbose rebuild   'native-or-bluebird@1.1.1' ]
+59 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/express-session/node_modules/uid-safe/node_modules/base64-url',
+59 verbose rebuild   'base64-url@1.0.0' ]
+60 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/express-session/node_modules/utils-merge',
+60 verbose rebuild   'utils-merge@1.0.0' ]
+61 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/finalhandler',
+61 verbose rebuild   'finalhandler@0.2.0' ]
+62 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/fresh',
+62 verbose rebuild   'fresh@0.2.4' ]
+63 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/method-override',
+63 verbose rebuild   'method-override@2.2.0' ]
+64 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/methods',
+64 verbose rebuild   'methods@1.1.0' ]
+65 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/morgan',
+65 verbose rebuild   'morgan@1.3.2' ]
+66 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/morgan/node_modules/on-finished',
+66 verbose rebuild   'on-finished@2.1.0' ]
+67 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/morgan/node_modules/on-finished/node_modules/ee-first',
+67 verbose rebuild   'ee-first@1.0.5' ]
+68 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/multiparty',
+68 verbose rebuild   'multiparty@3.3.2' ]
+69 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/multiparty/node_modules/readable-stream',
+69 verbose rebuild   'readable-stream@1.1.13' ]
+70 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/multiparty/node_modules/readable-stream/node_modules/core-util-is',
+70 verbose rebuild   'core-util-is@1.0.1' ]
+71 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/multiparty/node_modules/readable-stream/node_modules/isarray',
+71 verbose rebuild   'isarray@0.0.1' ]
+72 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/multiparty/node_modules/readable-stream/node_modules/string_decoder',
+72 verbose rebuild   'string_decoder@0.10.31' ]
+73 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/multiparty/node_modules/readable-stream/node_modules/inherits',
+73 verbose rebuild   'inherits@2.0.1' ]
+74 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/multiparty/node_modules/stream-counter',
+74 verbose rebuild   'stream-counter@0.2.0' ]
+75 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/response-time',
+75 verbose rebuild   'response-time@2.0.1' ]
+76 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/serve-favicon',
+76 verbose rebuild   'serve-favicon@2.1.5' ]
+77 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/serve-favicon/node_modules/etag',
+77 verbose rebuild   'etag@1.4.0' ]
+78 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/serve-favicon/node_modules/ms',
+78 verbose rebuild   'ms@0.6.2' ]
+79 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/serve-index',
+79 verbose rebuild   'serve-index@1.2.1' ]
+80 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/serve-index/node_modules/accepts',
+80 verbose rebuild   'accepts@1.1.1' ]
+81 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/serve-index/node_modules/accepts/node_modules/mime-types',
+81 verbose rebuild   'mime-types@2.0.2' ]
+82 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/serve-index/node_modules/accepts/node_modules/mime-types/node_modules/mime-db',
+82 verbose rebuild   'mime-db@1.1.0' ]
+83 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/serve-index/node_modules/accepts/node_modules/negotiator',
+83 verbose rebuild   'negotiator@0.4.8' ]
+84 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/serve-index/node_modules/batch',
+84 verbose rebuild   'batch@0.5.1' ]
+85 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/serve-static',
+85 verbose rebuild   'serve-static@1.6.4' ]
+86 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/send',
+86 verbose rebuild   'send@0.9.3' ]
+87 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/send/node_modules/destroy',
+87 verbose rebuild   'destroy@1.0.3' ]
+88 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/send/node_modules/etag',
+88 verbose rebuild   'etag@1.4.0' ]
+89 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/send/node_modules/mime',
+89 verbose rebuild   'mime@1.2.11' ]
+90 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/send/node_modules/ms',
+90 verbose rebuild   'ms@0.6.2' ]
+91 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/send/node_modules/on-finished',
+91 verbose rebuild   'on-finished@2.1.0' ]
+92 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/send/node_modules/on-finished/node_modules/ee-first',
+92 verbose rebuild   'ee-first@1.0.5' ]
+93 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/range-parser',
+93 verbose rebuild   'range-parser@1.0.2' ]
+94 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/serve-static/node_modules/utils-merge',
+94 verbose rebuild   'utils-merge@1.0.0' ]
+95 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/vhost',
+95 verbose rebuild   'vhost@3.0.0' ]
+96 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/pause',
+96 verbose rebuild   'pause@0.0.1' ]
+97 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/commander',
+97 verbose rebuild   'commander@1.3.2' ]
+98 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/commander/node_modules/keypress',
+98 verbose rebuild   'keypress@0.1.0' ]
+99 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/mkdirp',
+99 verbose rebuild   'mkdirp@0.5.0' ]
+100 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/mkdirp/node_modules/minimist',
+100 verbose rebuild   'minimist@0.0.8' ]
+101 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/proxy-addr',
+101 verbose rebuild   'proxy-addr@1.0.3' ]
+102 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/proxy-addr/node_modules/forwarded',
+102 verbose rebuild   'forwarded@0.1.0' ]
+103 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js',
+103 verbose rebuild   'ipaddr.js@0.1.3' ]
+104 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/merge-descriptors',
+104 verbose rebuild   'merge-descriptors@0.0.2' ]
+105 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/underscore',
+105 verbose rebuild   'underscore@1.7.0' ]
+106 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jwt-simple',
+106 verbose rebuild   'jwt-simple@0.2.0' ]
+107 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/http-proxy',
+107 verbose rebuild   'http-proxy@1.5.3' ]
+108 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/http-proxy/node_modules/eventemitter3',
+108 verbose rebuild   'eventemitter3@0.1.5' ]
+109 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose',
+109 verbose rebuild   'mongoose@3.8.15' ]
+110 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/mongodb',
+110 verbose rebuild   'mongodb@1.4.7' ]
+111 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/mongodb/node_modules/bson',
+111 verbose rebuild   'bson@0.2.9' ]
+112 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/mongodb/node_modules/bson/node_modules/nan',
+112 verbose rebuild   'nan@1.0.0' ]
+113 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos',
+113 verbose rebuild   'kerberos@0.0.3' ]
+114 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream',
+114 verbose rebuild   'readable-stream@1.0.31' ]
+115 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is',
+115 verbose rebuild   'core-util-is@1.0.1' ]
+116 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray',
+116 verbose rebuild   'isarray@0.0.1' ]
+117 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder',
+117 verbose rebuild   'string_decoder@0.10.31' ]
+118 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits',
+118 verbose rebuild   'inherits@2.0.1' ]
+119 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/hooks',
+119 verbose rebuild   'hooks@0.2.1' ]
+120 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/ms',
+120 verbose rebuild   'ms@0.1.0' ]
+121 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/sliced',
+121 verbose rebuild   'sliced@0.0.5' ]
+122 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/muri',
+122 verbose rebuild   'muri@0.3.1' ]
+123 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/mpromise',
+123 verbose rebuild   'mpromise@0.4.3' ]
+124 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/mpath',
+124 verbose rebuild   'mpath@0.1.1' ]
+125 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/regexp-clone',
+125 verbose rebuild   'regexp-clone@0.0.1' ]
+126 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/mquery',
+126 verbose rebuild   'mquery@0.8.0' ]
+127 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/mquery/node_modules/debug',
+127 verbose rebuild   'debug@0.7.4' ]
+128 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/angular-flot',
+128 verbose rebuild   'angular-flot@0.0.5' ]
+129 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/connect-flash',
+129 verbose rebuild   'connect-flash@0.1.1' ]
+130 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/should',
+130 verbose rebuild   'should@3.3.2' ]
+131 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-env',
+131 verbose rebuild   'grunt-env@0.4.2' ]
+132 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-env/node_modules/ini',
+132 verbose rebuild   'ini@1.1.0' ]
+133 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-env/node_modules/lodash',
+133 verbose rebuild   'lodash@2.4.1' ]
+134 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/passport',
+134 verbose rebuild   'passport@0.2.1' ]
+135 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/passport/node_modules/passport-strategy',
+135 verbose rebuild   'passport-strategy@1.0.0' ]
+136 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/passport/node_modules/pause',
+136 verbose rebuild   'pause@0.0.1' ]
+137 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/passport-local',
+137 verbose rebuild   'passport-local@1.0.0' ]
+138 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/passport-local/node_modules/passport-strategy',
+138 verbose rebuild   'passport-strategy@1.0.0' ]
+139 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-shell',
+139 verbose rebuild   'grunt-shell@0.6.4' ]
+140 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-shell/node_modules/chalk',
+140 verbose rebuild   'chalk@0.3.0' ]
+141 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-shell/node_modules/chalk/node_modules/has-color',
+141 verbose rebuild   'has-color@0.1.7' ]
+142 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-shell/node_modules/chalk/node_modules/ansi-styles',
+142 verbose rebuild   'ansi-styles@0.2.0' ]
+143 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/supertest',
+143 verbose rebuild   'supertest@0.10.0' ]
+144 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/supertest/node_modules/superagent',
+144 verbose rebuild   'superagent@0.17.0' ]
+145 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/supertest/node_modules/superagent/node_modules/qs',
+145 verbose rebuild   'qs@0.6.5' ]
+146 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/supertest/node_modules/superagent/node_modules/formidable',
+146 verbose rebuild   'formidable@1.0.14' ]
+147 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/supertest/node_modules/superagent/node_modules/mime',
+147 verbose rebuild   'mime@1.2.5' ]
+148 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/supertest/node_modules/superagent/node_modules/emitter-component',
+148 verbose rebuild   'emitter-component@1.0.0' ]
+149 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/supertest/node_modules/superagent/node_modules/methods',
+149 verbose rebuild   'methods@0.0.1' ]
+150 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/supertest/node_modules/superagent/node_modules/cookiejar',
+150 verbose rebuild   'cookiejar@1.3.0' ]
+151 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/supertest/node_modules/superagent/node_modules/debug',
+151 verbose rebuild   'debug@0.7.4' ]
+152 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/supertest/node_modules/superagent/node_modules/reduce-component',
+152 verbose rebuild   'reduce-component@1.0.1' ]
+153 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/supertest/node_modules/superagent/node_modules/extend',
+153 verbose rebuild   'extend@1.2.1' ]
+154 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/supertest/node_modules/methods',
+154 verbose rebuild   'methods@0.1.0' ]
+155 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha',
+155 verbose rebuild   'mocha@1.21.4' ]
+156 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/commander',
+156 verbose rebuild   'commander@2.0.0' ]
+157 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/growl',
+157 verbose rebuild   'growl@1.8.1' ]
+158 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/jade',
+158 verbose rebuild   'jade@0.26.3' ]
+159 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/jade/node_modules/commander',
+159 verbose rebuild   'commander@0.6.1' ]
+160 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/jade/node_modules/mkdirp',
+160 verbose rebuild   'mkdirp@0.3.0' ]
+161 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/diff',
+161 verbose rebuild   'diff@1.0.7' ]
+162 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/debug',
+162 verbose rebuild   'debug@2.0.0' ]
+163 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/debug/node_modules/ms',
+163 verbose rebuild   'ms@0.6.2' ]
+164 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/mkdirp',
+164 verbose rebuild   'mkdirp@0.3.5' ]
+165 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/glob',
+165 verbose rebuild   'glob@3.2.3' ]
+166 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/glob/node_modules/minimatch',
+166 verbose rebuild   'minimatch@0.2.14' ]
+167 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache',
+167 verbose rebuild   'lru-cache@2.5.0' ]
+168 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/sigmund',
+168 verbose rebuild   'sigmund@1.0.0' ]
+169 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/glob/node_modules/graceful-fs',
+169 verbose rebuild   'graceful-fs@2.0.3' ]
+170 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/glob/node_modules/inherits',
+170 verbose rebuild   'inherits@2.0.1' ]
+171 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt',
+171 verbose rebuild   'grunt@0.4.5' ]
+172 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/async',
+172 verbose rebuild   'async@0.1.22' ]
+173 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/coffee-script',
+173 verbose rebuild   'coffee-script@1.3.3' ]
+174 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/colors',
+174 verbose rebuild   'colors@0.6.2' ]
+175 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/dateformat',
+175 verbose rebuild   'dateformat@1.0.2-1.2.3' ]
+176 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/eventemitter2',
+176 verbose rebuild   'eventemitter2@0.4.14' ]
+177 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/findup-sync',
+177 verbose rebuild   'findup-sync@0.1.3' ]
+178 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/findup-sync/node_modules/glob',
+178 verbose rebuild   'glob@3.2.11' ]
+179 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/inherits',
+179 verbose rebuild   'inherits@2.0.1' ]
+180 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch',
+180 verbose rebuild   'minimatch@0.3.0' ]
+181 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache',
+181 verbose rebuild   'lru-cache@2.5.0' ]
+182 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/sigmund',
+182 verbose rebuild   'sigmund@1.0.0' ]
+183 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/findup-sync/node_modules/lodash',
+183 verbose rebuild   'lodash@2.4.1' ]
+184 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/glob',
+184 verbose rebuild   'glob@3.1.21' ]
+185 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/minimatch',
+185 verbose rebuild   'minimatch@0.2.14' ]
+186 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache',
+186 verbose rebuild   'lru-cache@2.5.0' ]
+187 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/minimatch/node_modules/sigmund',
+187 verbose rebuild   'sigmund@1.0.0' ]
+188 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/glob/node_modules/graceful-fs',
+188 verbose rebuild   'graceful-fs@1.2.3' ]
+189 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/glob/node_modules/inherits',
+189 verbose rebuild   'inherits@1.0.0' ]
+190 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/hooker',
+190 verbose rebuild   'hooker@0.2.3' ]
+191 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/iconv-lite',
+191 verbose rebuild   'iconv-lite@0.2.11' ]
+192 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/nopt',
+192 verbose rebuild   'nopt@1.0.10' ]
+193 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/nopt/node_modules/abbrev',
+193 verbose rebuild   'abbrev@1.0.5' ]
+194 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/rimraf',
+194 verbose rebuild   'rimraf@2.2.8' ]
+195 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/lodash',
+195 verbose rebuild   'lodash@0.9.2' ]
+196 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/underscore.string',
+196 verbose rebuild   'underscore.string@2.2.1' ]
+197 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/which',
+197 verbose rebuild   'which@1.0.5' ]
+198 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/js-yaml',
+198 verbose rebuild   'js-yaml@2.0.5' ]
+199 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/js-yaml/node_modules/argparse',
+199 verbose rebuild   'argparse@0.1.15' ]
+200 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore',
+200 verbose rebuild   'underscore@1.4.4' ]
+201 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string',
+201 verbose rebuild   'underscore.string@2.3.3' ]
+202 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/js-yaml/node_modules/esprima',
+202 verbose rebuild   'esprima@1.0.4' ]
+203 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/exit',
+203 verbose rebuild   'exit@0.1.2' ]
+204 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/getobject',
+204 verbose rebuild   'getobject@0.1.0' ]
+205 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/grunt-legacy-util',
+205 verbose rebuild   'grunt-legacy-util@0.2.0' ]
+206 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/grunt-legacy-log',
+206 verbose rebuild   'grunt-legacy-log@0.1.1' ]
+207 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash',
+207 verbose rebuild   'lodash@2.4.1' ]
+208 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string',
+208 verbose rebuild   'underscore.string@2.3.3' ]
+209 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test',
+209 verbose rebuild   'grunt-mocha-test@0.10.2' ]
+210 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha',
+210 verbose rebuild   'mocha@1.18.2' ]
+211 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/commander',
+211 verbose rebuild   'commander@2.0.0' ]
+212 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/growl',
+212 verbose rebuild   'growl@1.7.0' ]
+213 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/jade',
+213 verbose rebuild   'jade@0.26.3' ]
+214 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/jade/node_modules/commander',
+214 verbose rebuild   'commander@0.6.1' ]
+215 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/jade/node_modules/mkdirp',
+215 verbose rebuild   'mkdirp@0.3.0' ]
+216 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/diff',
+216 verbose rebuild   'diff@1.0.7' ]
+217 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/debug',
+217 verbose rebuild   'debug@2.0.0' ]
+218 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/debug/node_modules/ms',
+218 verbose rebuild   'ms@0.6.2' ]
+219 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/mkdirp',
+219 verbose rebuild   'mkdirp@0.3.5' ]
+220 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/glob',
+220 verbose rebuild   'glob@3.2.3' ]
+221 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/glob/node_modules/minimatch',
+221 verbose rebuild   'minimatch@0.2.14' ]
+222 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache',
+222 verbose rebuild   'lru-cache@2.5.0' ]
+223 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/sigmund',
+223 verbose rebuild   'sigmund@1.0.0' ]
+224 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/glob/node_modules/graceful-fs',
+224 verbose rebuild   'graceful-fs@2.0.3' ]
+225 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/glob/node_modules/inherits',
+225 verbose rebuild   'inherits@2.0.1' ]
+226 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/hooker',
+226 verbose rebuild   'hooker@0.2.3' ]
+227 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/fs-extra',
+227 verbose rebuild   'fs-extra@0.8.1' ]
+228 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/fs-extra/node_modules/ncp',
+228 verbose rebuild   'ncp@0.4.2' ]
+229 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/fs-extra/node_modules/mkdirp',
+229 verbose rebuild   'mkdirp@0.3.5' ]
+230 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/fs-extra/node_modules/jsonfile',
+230 verbose rebuild   'jsonfile@1.1.1' ]
+231 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/fs-extra/node_modules/rimraf',
+231 verbose rebuild   'rimraf@2.2.8' ]
+232 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint',
+232 verbose rebuild   'jshint@2.5.6' ]
+233 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/shelljs',
+233 verbose rebuild   'shelljs@0.3.0' ]
+234 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/underscore',
+234 verbose rebuild   'underscore@1.6.0' ]
+235 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/cli',
+235 verbose rebuild   'cli@0.6.4' ]
+236 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/cli/node_modules/glob',
+236 verbose rebuild   'glob@3.2.11' ]
+237 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/inherits',
+237 verbose rebuild   'inherits@2.0.1' ]
+238 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/minimatch',
+238 verbose rebuild   'minimatch@0.3.0' ]
+239 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/minimatch/node_modules/lru-cache',
+239 verbose rebuild   'lru-cache@2.5.0' ]
+240 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/minimatch/node_modules/sigmund',
+240 verbose rebuild   'sigmund@1.0.0' ]
+241 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/exit',
+241 verbose rebuild   'exit@0.1.2' ]
+242 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/minimatch',
+242 verbose rebuild   'minimatch@1.0.0' ]
+243 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/minimatch/node_modules/lru-cache',
+243 verbose rebuild   'lru-cache@2.5.0' ]
+244 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/minimatch/node_modules/sigmund',
+244 verbose rebuild   'sigmund@1.0.0' ]
+245 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/htmlparser2',
+245 verbose rebuild   'htmlparser2@3.7.3' ]
+246 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/htmlparser2/node_modules/domhandler',
+246 verbose rebuild   'domhandler@2.2.0' ]
+247 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/htmlparser2/node_modules/domelementtype',
+247 verbose rebuild   'domelementtype@1.1.1' ]
+248 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/htmlparser2/node_modules/domutils',
+248 verbose rebuild   'domutils@1.5.0' ]
+249 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/htmlparser2/node_modules/readable-stream',
+249 verbose rebuild   'readable-stream@1.1.13' ]
+250 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/htmlparser2/node_modules/readable-stream/node_modules/core-util-is',
+250 verbose rebuild   'core-util-is@1.0.1' ]
+251 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/htmlparser2/node_modules/readable-stream/node_modules/isarray',
+251 verbose rebuild   'isarray@0.0.1' ]
+252 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/htmlparser2/node_modules/readable-stream/node_modules/string_decoder',
+252 verbose rebuild   'string_decoder@0.10.31' ]
+253 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/htmlparser2/node_modules/readable-stream/node_modules/inherits',
+253 verbose rebuild   'inherits@2.0.1' ]
+254 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/htmlparser2/node_modules/entities',
+254 verbose rebuild   'entities@1.0.0' ]
+255 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/console-browserify',
+255 verbose rebuild   'console-browserify@1.1.0' ]
+256 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/console-browserify/node_modules/date-now',
+256 verbose rebuild   'date-now@0.1.4' ]
+257 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/strip-json-comments',
+257 verbose rebuild   'strip-json-comments@1.0.1' ]
+258 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint',
+258 verbose rebuild   'grunt-contrib-jshint@0.9.2' ]
+259 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint',
+259 verbose rebuild   'jshint@2.4.4' ]
+260 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs',
+260 verbose rebuild   'shelljs@0.1.4' ]
+261 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore',
+261 verbose rebuild   'underscore@1.4.4' ]
+262 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli',
+262 verbose rebuild   'cli@0.4.5' ]
+263 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob',
+263 verbose rebuild   'glob@4.0.6' ]
+264 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/graceful-fs',
+264 verbose rebuild   'graceful-fs@3.0.3' ]
+265 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/inherits',
+265 verbose rebuild   'inherits@2.0.1' ]
+266 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/minimatch',
+266 verbose rebuild   'minimatch@1.0.0' ]
+267 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/minimatch/node_modules/lru-cache',
+267 verbose rebuild   'lru-cache@2.5.0' ]
+268 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/minimatch/node_modules/sigmund',
+268 verbose rebuild   'sigmund@1.0.0' ]
+269 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/once',
+269 verbose rebuild   'once@1.3.1' ]
+270 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/once/node_modules/wrappy',
+270 verbose rebuild   'wrappy@1.0.1' ]
+271 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch',
+271 verbose rebuild   'minimatch@0.4.0' ]
+272 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/lru-cache',
+272 verbose rebuild   'lru-cache@2.5.0' ]
+273 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/sigmund',
+273 verbose rebuild   'sigmund@1.0.0' ]
+274 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2',
+274 verbose rebuild   'htmlparser2@3.3.0' ]
+275 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/node_modules/domhandler',
+275 verbose rebuild   'domhandler@2.1.0' ]
+276 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/node_modules/domelementtype',
+276 verbose rebuild   'domelementtype@1.1.1' ]
+277 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/node_modules/domutils',
+277 verbose rebuild   'domutils@1.1.6' ]
+278 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/node_modules/readable-stream',
+278 verbose rebuild   'readable-stream@1.0.32' ]
+279 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/node_modules/readable-stream/node_modules/core-util-is',
+279 verbose rebuild   'core-util-is@1.0.1' ]
+280 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/node_modules/readable-stream/node_modules/isarray',
+280 verbose rebuild   'isarray@0.0.1' ]
+281 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/node_modules/readable-stream/node_modules/string_decoder',
+281 verbose rebuild   'string_decoder@0.10.31' ]
+282 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/node_modules/readable-stream/node_modules/inherits',
+282 verbose rebuild   'inherits@2.0.1' ]
+283 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/console-browserify',
+283 verbose rebuild   'console-browserify@0.1.6' ]
+284 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/exit',
+284 verbose rebuild   'exit@0.1.2' ]
+285 verbose rebuild path, id [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/hooker',
+285 verbose rebuild   'hooker@0.2.3' ]
+286 silly rebuild set [ '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/basic-auth',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/basic-auth-connect',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/body-parser',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/bytes',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/depd',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/body-parser/node_modules/iconv-lite',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/media-typer',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/body-parser/node_modules/on-finished',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/qs',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/body-parser/node_modules/raw-body',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/type-is',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/type-is/node_modules/mime-types',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/type-is/node_modules/mime-types/node_modules/mime-db',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/cookie',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/cookie-parser',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/cookie-signature',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/compression',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/compression/node_modules/accepts',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/compression/node_modules/accepts/node_modules/mime-types',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/compression/node_modules/accepts/node_modules/mime-types/node_modules/mime-db',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/compression/node_modules/accepts/node_modules/negotiator',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/compression/node_modules/compressible',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/compression/node_modules/compressible/node_modules/mime-db',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/debug',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/debug/node_modules/ms',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/on-headers',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/vary',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/connect-timeout',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/connect-timeout/node_modules/ms',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/csurf',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/csurf/node_modules/csrf',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/csurf/node_modules/csrf/node_modules/rndm',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/csurf/node_modules/csrf/node_modules/scmp',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/csurf/node_modules/csrf/node_modules/uid-safe',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/csurf/node_modules/csrf/node_modules/uid-safe/node_modules/mz',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/csurf/node_modules/csrf/node_modules/uid-safe/node_modules/mz/node_modules/native-or-bluebird',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/csurf/node_modules/csrf/node_modules/base64-url',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/errorhandler',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/errorhandler/node_modules/accepts',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/errorhandler/node_modules/accepts/node_modules/mime-types',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/errorhandler/node_modules/accepts/node_modules/mime-types/node_modules/mime-db',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/errorhandler/node_modules/accepts/node_modules/negotiator',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/escape-html',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/express-session',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/crc',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/parseurl',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/express-session/node_modules/uid-safe',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/express-session/node_modules/uid-safe/node_modules/mz',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/express-session/node_modules/uid-safe/node_modules/mz/node_modules/native-or-bluebird',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/express-session/node_modules/uid-safe/node_modules/base64-url',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/express-session/node_modules/utils-merge',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/finalhandler',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/fresh',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/method-override',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/methods',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/morgan',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/morgan/node_modules/on-finished',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/morgan/node_modules/on-finished/node_modules/ee-first',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/multiparty',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/multiparty/node_modules/readable-stream',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/multiparty/node_modules/readable-stream/node_modules/core-util-is',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/multiparty/node_modules/readable-stream/node_modules/isarray',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/multiparty/node_modules/readable-stream/node_modules/string_decoder',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/multiparty/node_modules/readable-stream/node_modules/inherits',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/multiparty/node_modules/stream-counter',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/response-time',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/serve-favicon',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/serve-favicon/node_modules/etag',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/serve-favicon/node_modules/ms',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/serve-index',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/serve-index/node_modules/accepts',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/serve-index/node_modules/accepts/node_modules/mime-types',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/serve-index/node_modules/accepts/node_modules/mime-types/node_modules/mime-db',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/serve-index/node_modules/accepts/node_modules/negotiator',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/serve-index/node_modules/batch',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/serve-static',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/send',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/send/node_modules/destroy',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/send/node_modules/etag',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/send/node_modules/mime',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/send/node_modules/ms',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/send/node_modules/on-finished',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/send/node_modules/on-finished/node_modules/ee-first',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/range-parser',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/serve-static/node_modules/utils-merge',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/vhost',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/connect/node_modules/pause',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/commander',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/commander/node_modules/keypress',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/mkdirp',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/mkdirp/node_modules/minimist',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/proxy-addr',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/proxy-addr/node_modules/forwarded',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/express/node_modules/merge-descriptors',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/underscore',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jwt-simple',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/http-proxy',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/http-proxy/node_modules/eventemitter3',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/mongodb',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/mongodb/node_modules/bson',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/mongodb/node_modules/bson/node_modules/nan',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/hooks',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/ms',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/sliced',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/muri',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/mpromise',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/mpath',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/regexp-clone',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/mquery',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mongoose/node_modules/mquery/node_modules/debug',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/angular-flot',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/connect-flash',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/should',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-env',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-env/node_modules/ini',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-env/node_modules/lodash',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/passport',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/passport/node_modules/passport-strategy',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/passport/node_modules/pause',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/passport-local',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/passport-local/node_modules/passport-strategy',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-shell',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-shell/node_modules/chalk',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-shell/node_modules/chalk/node_modules/has-color',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-shell/node_modules/chalk/node_modules/ansi-styles',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/supertest',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/supertest/node_modules/superagent',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/supertest/node_modules/superagent/node_modules/qs',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/supertest/node_modules/superagent/node_modules/formidable',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/supertest/node_modules/superagent/node_modules/mime',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/supertest/node_modules/superagent/node_modules/emitter-component',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/supertest/node_modules/superagent/node_modules/methods',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/supertest/node_modules/superagent/node_modules/cookiejar',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/supertest/node_modules/superagent/node_modules/debug',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/supertest/node_modules/superagent/node_modules/reduce-component',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/supertest/node_modules/superagent/node_modules/extend',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/supertest/node_modules/methods',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/commander',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/growl',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/jade',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/jade/node_modules/commander',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/jade/node_modules/mkdirp',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/diff',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/debug',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/debug/node_modules/ms',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/mkdirp',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/glob',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/glob/node_modules/minimatch',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/sigmund',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/glob/node_modules/graceful-fs',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/mocha/node_modules/glob/node_modules/inherits',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/async',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/coffee-script',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/colors',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/dateformat',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/eventemitter2',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/findup-sync',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/findup-sync/node_modules/glob',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/inherits',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/sigmund',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/findup-sync/node_modules/lodash',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/glob',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/minimatch',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/minimatch/node_modules/sigmund',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/glob/node_modules/graceful-fs',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/glob/node_modules/inherits',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/hooker',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/iconv-lite',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/nopt',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/nopt/node_modules/abbrev',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/rimraf',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/lodash',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/underscore.string',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/which',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/js-yaml',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/js-yaml/node_modules/argparse',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/js-yaml/node_modules/esprima',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/exit',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/getobject',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/grunt-legacy-util',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/grunt-legacy-log',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/commander',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/growl',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/jade',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/jade/node_modules/commander',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/jade/node_modules/mkdirp',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/diff',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/debug',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/debug/node_modules/ms',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/mkdirp',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/glob',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/glob/node_modules/minimatch',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/sigmund',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/glob/node_modules/graceful-fs',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/mocha/node_modules/glob/node_modules/inherits',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/hooker',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/fs-extra',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/fs-extra/node_modules/ncp',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/fs-extra/node_modules/mkdirp',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/fs-extra/node_modules/jsonfile',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-mocha-test/node_modules/fs-extra/node_modules/rimraf',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/shelljs',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/underscore',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/cli',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/cli/node_modules/glob',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/inherits',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/minimatch',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/minimatch/node_modules/lru-cache',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/minimatch/node_modules/sigmund',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/exit',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/minimatch',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/minimatch/node_modules/lru-cache',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/minimatch/node_modules/sigmund',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/htmlparser2',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/htmlparser2/node_modules/domhandler',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/htmlparser2/node_modules/domelementtype',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/htmlparser2/node_modules/domutils',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/htmlparser2/node_modules/readable-stream',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/htmlparser2/node_modules/readable-stream/node_modules/core-util-is',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/htmlparser2/node_modules/readable-stream/node_modules/isarray',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/htmlparser2/node_modules/readable-stream/node_modules/string_decoder',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/htmlparser2/node_modules/readable-stream/node_modules/inherits',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/htmlparser2/node_modules/entities',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/console-browserify',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/console-browserify/node_modules/date-now',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/jshint/node_modules/strip-json-comments',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/graceful-fs',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/inherits',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/minimatch',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/minimatch/node_modules/lru-cache',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/minimatch/node_modules/sigmund',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/once',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/once/node_modules/wrappy',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/lru-cache',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/node_modules/sigmund',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/node_modules/domhandler',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/node_modules/domelementtype',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/node_modules/domutils',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/node_modules/readable-stream',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/node_modules/readable-stream/node_modules/core-util-is',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/node_modules/readable-stream/node_modules/isarray',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/node_modules/readable-stream/node_modules/string_decoder',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/node_modules/readable-stream/node_modules/inherits',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/console-browserify',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/exit',
+286 silly rebuild set   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/grunt-contrib-jshint/node_modules/hooker' ]
+287 info build /home/truelogic/Desarrollo/turn/moab/ui/node_modules/express
+288 info preinstall express@3.17.6
+289 verbose linkStuff [ false,
+289 verbose linkStuff   false,
+289 verbose linkStuff   false,
+289 verbose linkStuff   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules' ]
+290 info linkStuff express@3.17.6
+291 verbose linkBins express@3.17.6
+292 verbose link bins [ { express: './bin/express' },
+292 verbose link bins   '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/.bin',
+292 verbose link bins   false ]
+293 verbose linkMans express@3.17.6
+294 verbose rebuildBundles express@3.17.6
+295 verbose rebuildBundles [ '.bin',
+295 verbose rebuildBundles   'basic-auth',
+295 verbose rebuildBundles   'commander',
+295 verbose rebuildBundles   'connect',
+295 verbose rebuildBundles   'cookie',
+295 verbose rebuildBundles   'cookie-signature',
+295 verbose rebuildBundles   'crc',
+295 verbose rebuildBundles   'debug',
+295 verbose rebuildBundles   'depd',
+295 verbose rebuildBundles   'escape-html',
+295 verbose rebuildBundles   'fresh',
+295 verbose rebuildBundles   'media-typer',
+295 verbose rebuildBundles   'merge-descriptors',
+295 verbose rebuildBundles   'methods',
+295 verbose rebuildBundles   'mkdirp',
+295 verbose rebuildBundles   'parseurl',
+295 verbose rebuildBundles   'proxy-addr',
+295 verbose rebuildBundles   'range-parser',
+295 verbose rebuildBundles   'send',
+295 verbose rebuildBundles   'vary' ]
+296 error Error: EACCES, unlink '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/.bin/express'
+296 error  { [Error: EACCES, unlink '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/.bin/express']
+296 error   errno: 3,
+296 error   code: 'EACCES',
+296 error   path: '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/.bin/express' }
+297 error Please try running this command again as root/Administrator.
+298 error System Linux 3.13.0-24-generic
+299 error command "/usr/bin/node" "/usr/bin/npm" "rebuild"
+300 error cwd /home/truelogic/Desarrollo/turn/moab/ui
+301 error node -v v0.10.30
+302 error npm -v 1.4.21
+303 error path /home/truelogic/Desarrollo/turn/moab/ui/node_modules/.bin/express
+304 error code EACCES
+305 error errno 3
+306 error stack Error: EACCES, unlink '/home/truelogic/Desarrollo/turn/moab/ui/node_modules/.bin/express'
+307 verbose exit [ 3, true ]

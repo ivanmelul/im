@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Moab</title>
+    <link href="/bower/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/bower/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/bower/angular-ui/build/angular-ui.min.css" rel="stylesheet">
+    <link href="/bower/fontawesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">
+    <style>
+     .nav, .pagination, .carousel, .panel-title a, *[ ng-click ] { cursor: pointer; }
+    </style>
+
+
+    <style>
+
+      .tags {
+        list-style: none;
+        padding: 0;
+      }
+
+      .tag {
+        float: left;
+        border: 1px solid #4b4b4b;
+        padding: 7px;
+        margin:7px;
+        width: auto;
+        border-radius: 4px;
+      }
+
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="changeColor">
+    <!--<div ng-hide="!loggedIn" class="container" ng-view></div>-->
+    <div class="container-fluid">
+      <div class="row" ng-view></div>
+    </div>
+
+    <script src="/bower/jquery/dist/jquery.min.js"></script>
+    <script src="/bower/jquery-flot/jquery.flot.js"></script>
+    <script src="/bower/jquery-flot/jquery.flot.time.js"></script>
+    <script src="/bower/jquery-flot/jquery.flot.selection.js"></script>
+    <script src="/bower/jquery-flot/jquery.flot.resize.js"></script>
+    <script src="/bower/numeraljs/min/numeral.min.js"></script>
+    <script src="/bower/zeroclipboard/dist/ZeroClipboard.js"></script>
+
+    <script src="/bower/angular/angular.js"></script>
+    <script src="/bower/angular-route/angular-route.min.js"></script>
+    <script src="/bower/angular-cookies/angular-cookies.min.js"></script>
+    
+    <script src="/bower/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/bower/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script src="/bower/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>     
+    <script src="/bower/angular-ui/build/angular-ui.min.js"></script>
+    <script src="/bower/angular-flot/angular-flot.js"></script>
+    <script src="/bower/ng-clip/src/ngClip.js"></script>
+    
+    <script src="/bower/requirejs/require.js"></script>
+
+    <script src="/bower/angular-http-auth/src/http-auth-interceptor.js"></script>
+
+    <script>
+     require.config({
+       baseUrl: '/js'
+     });
+
+     require(['app'], function (makeApp) {
+       var appName = 'moabApp';
+       var app = makeApp(appName);
+       angular.bootstrap(document, [appName]);
+     });
+    </script>
+  </body>
+</html>

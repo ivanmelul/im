@@ -1,0 +1,36 @@
+{
+  "name": "moab-ui",
+  "version": "0.0.1",
+  "description": "UI server for the Utah project",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://stash.turn.com/projects/TOPS/repos/moab/browse"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "author": "J Irving <jonathan.irving@turn.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "jshint": "^2.4.4",
+    "mocha": "^1.18.2",
+    "should": "^3.2.0",
+    "supertest": "^0.10.0",
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-env": "^0.4.1",
+    "grunt-mocha-test": "^0.10.0",
+    "grunt": "^0.4.4",
+    "grunt-shell": "^0.6.4"
+  },
+  "dependencies": {
+    "express": "^3.5.1",
+    "underscore": "^1.6.0",
+    "jwt-simple": "^0.2.0",
+    "http-proxy": "^1.0.3", 
+    "mongoose": "~3.8.8",
+    "angular-flot": "~0.0.5",    
+    "passport":"latest",
+    "passport-local":"latest"
+  }
+}

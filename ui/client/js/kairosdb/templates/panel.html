@@ -1,0 +1,185 @@
+<div ng-controller="kairospanelController" class="BlockPanel changeColor">
+
+	<div class="PanelHead">
+		<i ng-if="showGraphAction" class="fa fa-repeat re-draw" tooltip="Reset graph" ng-click="resetZoom()"></i>		
+
+		<span ng-if="editable" class="Action">
+
+		    <div class="dropdown" on-toggle="toggled(open)">
+				<i class="fa fa-cog ActionIcon dropdown-toggle {{showDropdown ? 'open':''}} changeColor" ng-click="showDropdown = !showDropdown" ng-show="!showQuery" ng-mouseenter="showDropdown = true"></i>
+				<ul class="dropdown-menu LayoutMenu" style="{{showDropdown && !showQuery?'display:block!important;':'display:none;'}}" ng-mouseleave="showDropdown = false">
+					<li class="MenuItem">
+						<span class="Label Lnk" ng-click="manageQuery()">Edit</span>
+					</li>
+					<li class="MenuItem">
+						<span class="Label">Size</span>
+						<ul class="pagination pagination-sm StickThis" ng-model="currentSizeIndex">
+							<li role="presentation" class="{{currentSizeIndex == 1 ? 'active':''}}">
+								<a role="menuitem" tabindex="-1" href="#/" ng-click="setPanelClass(1)" skip>1</a></li>
+							<li role="presentation" class="{{currentSizeIndex == 2 ? 'active':''}}">
+								<a role="menuitem" tabindex="-1" href="#/" ng-click="setPanelClass(2)" skip>2</a></li>
+							<li role="presentation" class="{{currentSizeIndex == 3 ? 'active':''}}">
+								<a role="menuitem" tabindex="-1" href="#/" ng-click="setPanelClass(3)" skip>3</a></li>
+							<li role="presentation" class="{{currentSizeIndex == 4 ? 'active':''}}">
+								<a role="menuitem" tabindex="-1" href="#/" ng-click="setPanelClass(4)" skip>4</a></li>
+						</ul>
+					</li>
+					<li class="MenuItem">
+						<span class="Label">Move</span>
+						<div class="btn-group btn-group-xs StickThis">
+							<button type="button" class="btn btn-default" ng-click="order(-1)"><i class="fa fa-caret-left"></i></button>
+							<button type="button" class="btn btn-default" ng-click="order(1)"><i class="fa fa-caret-right"></i></button>
+						</div>
+					</li>
+					<li class="MenuItem">
+						<span class="Label">References</span>
+						<div class="btn-group StickThis" data-toggle="buttons">
+							<label ng-class="{active: references}" class="btn btn-default" ng-click="viewLegend()">
+								<input type="radio" ng-model="references" value="true">
+								ON
+							</label>
+							<label ng-class="{active: !references }" class="btn btn-default" ng-click="viewLegend()">
+								<input type="radio" ng-model="references" value="false">
+								OFF
+							</label>
+					    </div>
+
+					</li>
+					<li class="MenuItem">
+						<span class="Label Lnk" ng-click="deletePanel()">Delete</span>
+					</li>
+				</ul>
+		    </div>
+
+			<i class="glyphicon glyphicon-remove" ng-show="showQuery" ng-click="manageQuery()" tooltip="Close"></i>
+			<span class="Txt">Show / Hide Query</span>
+		</span>
+		<input type="text" name="titleDashboard" ng-model="panel.panelname" ng-hide="!editable || !showQuery" placeholder="Untitled">
+		<strong class="panelname" ng-show="!showQuery">{{panel.panelname}}</strong>
+	</div>
+
+	<div ng-show="showQuery" class="PanelEdit">
+
+		<!--<i class="fa fa-eye" ng-click="showTime = !showTime"></i> Show / Hide Time-->
+
+		<div ng-show="showTime" class="time_range">
+			<div class="Time">
+				<h3>Time</h3>
+				<div class="ChooseOne">
+					<label><input type="radio" ng-model="timeRA" value="absolute"><span>Absolute</span></label>
+					<label><input type="radio" ng-model="timeRA" value="relative"><span>Relative</span></label>
+				</div>
+				<div class="ShowTime">
+					<div class="AbsoluteTime" ng-show="timeRA == 'absolute'" >
+						
+						<div class="ActionBlock">
+							
+							<p class="input-group">
+								<label>From:</label>
+								<input type="text" class="form-control" datepicker-popup="{{format}}" ng-model="panel.absolute.start_absolute" is-open="opened1" datepicker-options="dateOptions" ng-required="true" close-text="Close"/>
+								<span class="input-group-btn">
+									<button type="button" class="btn btn-default" ng-click="open($event, 'opened1')"><i class="glyphicon glyphicon-calendar"></i></button>
+								</span>
+							</p>
+						</div>
+
+						<div class="ActionBlock">
+							
+							<p class="input-group">
+								<label>To:</label>
+								<input type="text" class="form-control" datepicker-popup="{{format}}" ng-model="panel.absolute.end_absolute" is-open="opened2" datepicker-options="dateOptions" ng-required="true" close-text="Close" />
+								<span class="input-group-btn">
+									<button type="button" class="btn btn-default" ng-click="open($event, 'opened2')"><i class="glyphicon glyphicon-calendar"></i></button>
+								</span>
+							</p>
+						</div>
+
+					</div>
+					<div class="RelativeTime"  ng-show="timeRA == 'relative'" >
+
+						<div class="ActionBlock">
+							<p class="input-group">
+								<label>From:</label>
+								<input ng-model="panel.relative.start_relative.value" class="form-control" type="text">
+								<select ng-model="panel.relative.start_relative.unit" class="form-control">
+									<option value="years">Years</option>
+									<option value="months">Months</option>
+									<option value="weeks">Weeks</option>
+									<option value="days">Days</option>
+									<option selected="selected" value="hours">Hours</option>
+									<option value="minutes">Minutes</option>
+									<option value="seconds">Seconds</option>
+								</select>
+								<span>ago</span>
+							</p>
+						</div>
+
+						<div class="ActionBlock">
+							<p class="input-group">
+								<label>To:</label>
+								<input ng-model="panel.relative.end_relative.value" class="form-control" type="text">
+								<select ng-model="panel.relative.end_relative.unit" class="form-control">
+									<option value="years">Years</option>
+									<option value="months">Months</option>
+									<option value="weeks">Weeks</option>
+									<option value="days">Days</option>
+									<option selected="selected" value="hours">Hours</option>
+									<option value="minutes">Minutes</option>
+									<option value="seconds">Seconds</option>
+								</select>
+								<span>ago</span>
+							</p>
+						</div>
+
+		             </div>
+
+	             </div>
+		    </div>
+
+		</div>
+
+		<div class="Metrics">
+			<h3>Metrics 
+				<span class="btn btn-danger" ng-click="newMetric()">
+					<!--<i class="fa fa-plus-circle" ></i> -->Add Metric
+				</span>
+			</h3>
+
+			<tabset ng-if="panel.metrics.length">
+
+				<tab ng-repeat="metric in panel.metrics" heading="Metric {{$index+1}}" active="metric.active" selected="metric.active">
+					<pane active="metric.active" selected="metric.active">
+						<span ng-click="deleteMetric($index)" class="Delete">
+							<i class="fa fa-trash-o" tooltip="Delete"></i>
+						</span>
+						<kairosui endpoint="endpoint" metric="metric"></kairosui>
+					</pane>
+				</tab>
+
+				<tab ng-if="metrics_query_json.metrics.length>0" heading="Global JSON">
+					<textarea rows="10" cols="40">{{metrics_query_json}}</textarea>
+				</tab>
+				
+			</tabset>
+		</div>
+
+	</div>
+
+
+	<div class="GraphResult">
+		<!--
+		<i class="fa fa-eye" ng-click="showGraph = !showGraph"></i> Show / Hide Graph
+		-->
+		<div>
+			<flotui ng-show="canShowGraph()" panelindex="panelindex" results='query_result' colors="panel.colors" theme="theme"></flotui>
+			<div ng-show="!canShowGraph()" class="graphNoData">
+				<p>No data available</p>
+			</div>
+		</div>
+
+		<loading visible="loading"></loading>
+
+	</div>
+
+
+</div>

@@ -1,0 +1,689 @@
+@font-face{
+	font-family:'DINPro-light';
+	src:font-url('../fonts/pfdintextpro-light-webfont.eot');
+	src:font-url('../fonts/pfdintextpro-light-webfont.woff') format('woff');
+	font-weight:200;
+	font-style:normal;
+}
+@font-face{
+	font-family:'DINPro';
+	src:font-url('../fonts/pfdintextpro-regular-webfont.eot');
+	src:font-url('../fonts/pfdintextpro-regular-webfont.woff') format('woff');
+	font-weight:400;
+	font-style:normal;
+}
+@font-face{
+	font-family:'DINPro-medium';
+	src:font-url('../fonts/pfdintextpro-medium-webfont.eot');
+	src:font-url('../fonts/pfdintextpro-medium-webfont.woff') format('woff');
+	font-style:normal;
+	font-weight: 600;
+}
+@font-face{
+	font-family:'DINPro-bold';
+	src:font-url('../fonts/pfdintextpro-bold-webfont.eot');
+	src:font-url('../fonts/pfdintextpro-bold-webfont.woff') format('woff');
+	font-weight:700;
+	font-style:normal;
+}
+@font-face{
+	font-family:'DINPro-black';
+	src:font-url('../fonts/pfdintextpro-xblack-webfont.eot');
+	src:font-url('../fonts/pfdintextpro-xblack-webfont.woff') format('woff');
+	font-weight: 900;
+	font-style:normal;
+}
+
+*,*:hover,*:focus,*:active,*:visited {
+	outline: none;
+	text-decoration: none;
+}
+
+i {
+	z-index: 1;
+	position: relative;
+}
+
+input {
+	z-index: 1;
+	position: relative;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.changeColor {
+
+    -webkit-transition: background 300ms ease-in-out 0s,color 300ms ease-in-out 0s,border 300ms ease-in-out 0s;
+    -moz-transition: background 300ms ease-in-out 0s,color 300ms ease-in-out 0s,border 300ms ease-in-out 0s;
+    -o-transition: background 300ms ease-in-out 0s,color 300ms ease-in-out 0s,border 300ms ease-in-out 0s;
+    -ms-transition: background 300ms ease-in-out 0s,color 300ms ease-in-out 0s,border 300ms ease-in-out 0s;
+    transition: background 300ms ease-in-out 0s,color 300ms ease-in-out 0s,border 300ms ease-in-out 0s;
+
+}
+
+
+body { font-family: Arial, Helvetica, sans-serif;background: #d2d2d2; color: #333;}
+
+
+/**/
+.Header { background: #ff5e26; color: #fff; padding-left: 2.15%; padding-right: 2.15%; min-height: 58px; z-index: 100; width: 100%; position: fixed;}
+.Header .Logo h1 { display: inline-block; width: 129px; height: 25px; margin: 18px 0 0 0; padding: 0; background: url("../images/sprite.png") no-repeat; text-indent: -5000px; overflow: hidden;}
+.Header .Logo h2 { margin: 0 0 0 12px; padding: 0; display: inline-block; width: 83px; height: 28px; position: relative; top: 0px; background: url("../images/sprite.png") no-repeat 0 -40px; text-indent: -5000px;}
+.login_form {color:#000;}
+.TopMenu ul {margin: 0; padding: 0; list-style: none;}
+.TopMenu { margin: 0; padding: 0; list-style: none; position: relative;}
+.TopMenu li { margin: 0; padding: 0; list-style: none; display: inline-block;;}
+.TopMenu .User { margin-right: 25px;}
+.TopMenu .UserName { font-size: 13px; line-height: 15px;}
+.TopMenu .UserName em {font-style: normal; color: #ffb59b;}
+.TopMenu .UserName strong { color: #fff;}
+.TopMenu .Logout {font-size: 12px;}
+.TopMenu .Logout a {text-decoration:none;color: white;}
+.TopMenu .MainMenu { border: none; width: 267px; margin-left: 0; padding-left: 0;}
+.TopMenu .Actions { padding: 14px 0 0 14px; border-left: 1px solid #cc4b1e; /*width: 108px;*/ text-align: right;}
+.TopMenu .Actions .btn { padding-left: 22px; padding-right: 22px;}
+.TopMenu .ActionIcon { opacity: 0.6; padding: 10px 10px 20px;}
+.TopMenu .ActionIcon:hover { opacity: 1; border-bottom: 1px solid #fff; padding: 10px 10px 19px;}
+.TopMenu .ActionIcon.highlight {
+  animation: 1s linear 0s normal none infinite hoverup;
+  -webkit-animation: 1s linear 0s normal none infinite hoverup;
+  -moz-animation: 1s linear 0s normal none infinite hoverup;
+  -o-animation: 1s linear 0s normal none infinite hoverup;
+
+  -webkit-transition:all 0.3s ease 0s;
+  -moz-transition:all 0.3s ease 0s;
+  -o-transition:all 0.3s ease 0s;
+  transition:all 0.3s ease 0s;
+
+  border-bottom: 1px solid transparent;
+  padding: 10px 10px 19px;
+}
+@keyframes hoverup {
+  0%, 100% {
+      transform: translateY(0px);
+      opacity: 0.5;
+  }
+  50% {
+      transform: translateY(3px);
+      opacity: 1;
+  }
+}
+@-moz-keyframes hoverup {
+  0%, 100% {
+      transform: translateY(0px);
+      opacity: 0.5;
+  }
+  50% {
+      transform: translateY(3px);
+      opacity: 1;
+  }
+}
+@-o-keyframes hoverup {
+  0%, 100% {
+      transform: translateY(0px);
+      opacity: 0;
+  }
+  50% {
+      transform: translateY(3px);
+      opacity: 1;
+  }
+}
+@-webkit-keyframes hoverup {
+  0%, 100% {
+      transform: translateY(0px);
+      opacity: 0;
+  }
+  50% {
+      transform: translateY(3px);
+      opacity: 1;
+  }
+}
+
+/*.TopMenu .Btn { font-size: 16px; background: #c03505; border-radius: 6px; width: 74px; height: 33px; border: none;}*/
+.TopMenu .Combo input { background: #ff5e26; border: 1px solid rgba(255,255,255,0.26); border-radius: 16px; font-size: 15px; height: 33px; padding: 6px 16px; color: #fff;}
+.TopMenu .Combo input::-webkit-input-placeholder { color: #fff}
+.TopMenu .Combo input::-moz-placeholder { color: #fff; opacity: 1}
+.TopMenu .Combo input:focus { background: #fff; color: #333; -webkit-box-shadow:inset 0 1px 3px 1px rgba(0,0,0,.2); box-shadow:inset 0 1px 3px 1px rgba(0,0,0,.2); border: 1px solid #666;}
+.TopMenu .Combo input:focus::-webkit-input-placeholder { color: #333}
+.TopMenu .Combo input:focus::-moz-placeholder { color: #333; opacity: 1}
+.TopMenu .Combo input + a { color: #fff; font-size: 15px; line-height: 17px; margin-left: 9px;}
+.MenuCombo {position:absolute; z-index:10; top: 58px; width: 271px; -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,.2); box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);}
+.MenuCombo { background: #fff; z-index: 10;}
+.MenuCombo li { margin: 0; padding: 0; display: block; border: none;}
+.MenuCombo div + li { margin-top: 6px;}
+.MenuCombo li.dashboardsFind + div { margin-top: 10px;}
+.MenuCombo li.dashboardsFind:last-child { padding-bottom: 15px;}
+
+.MenuCombo .MainTitle { font-size: 13px; line-height: 15px; color: #8c8c8c; padding-left: 15px; padding-top: 8px;}
+.MenuCombo h5 { padding: 7px 15px; font-weight: bold; font-size: 13px; line-height: 15px; color: #333; border-bottom: 1px solid #d6d8da; margin: 0;}
+.MenuCombo .Title + li { margin-top: 6px;}
+.MenuCombo li + .Title { margin-bottom: 6px;}
+.MenuCombo .fa { font-size: 13px; line-height: 15px; color: #b8b8b8; width: 18px; }
+.MenuCombo a { font-size: 13px; line-height: 15px; color: #6c6c6c; display: block; padding: 3px 15px;}
+.MenuCombo a:hover { text-decoration: none; color: #000;}
+/**/
+.Dashboard { padding: 73px 1.45% 13px 2.15%;}
+.Dashboard .Head { overflow: hidden; width: 99.3%;}
+
+.Dashboard .Head .HeadIcon { font-size: 14px; line-height: 15px; position: relative; top: 6px; border-radius: 20px; padding: 3px 6px; margin-right: 7px; height: 22px;color: #767575;border: 1px solid rgba(135,135,135,0.7);}
+
+.DashTitle { color: #333; font-family: "DINPro", Arial, Helvetica, sans-serif; font-size: 21px; line-height: 23px; background: transparent; border: none; height: 29px; width: 450px; padding-top: 5px;}
+
+.DashTitle a { text-decoration:none;color: #333}
+.DashTitle a:hover { text-decoration:none;color: #333}
+
+.DashTitle .fa { color: #a2a2a2;font-size: 21px; line-height: 21px;}
+
+
+.Dashboard .Head .btn {border-color: #a4a4a4;}
+/*.Dashboard .Head .btn { height: 35px; line-height: 16px; padding-top: 9px; border-radius: 8px;}
+.Dashboard .Head .btn-default {background-color: #d2d2d2; border-color: #a4a4a4; color: #333;}
+.Dashboard .Head .btn-default:hover,
+.Dashboard .Head .btn-default:focus,
+.Dashboard .Head .btn-default:active,
+.Dashboard .Head .btn-default.active { background-color: #fff; border-color: #a4a4a4; color: #333;}*/
+.RadioActions label { position: relative;}
+.RadioActions input[type="radio"] { position: absolute; left: -5000px;}
+.Panels { margin: 12px 0 10px; padding: 0; list-style: none; float: left; width: 100%; height: 100%; }
+.Panels > li {
+	display: block;
+	padding: 0;
+	list-style: none;
+	float:left;
+	position:relative;
+	margin-right: 10px;
+	max-height: 400px;
+	z-index: 2;
+	border-radius: 0;
+
+	/*
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+	*/
+
+}
+
+.Panels li.panel {
+	height: 373px;
+	background-color: #fff;
+	border: 1px solid transparent;
+}
+
+@keyframes fadealert {
+	0% { opacity: 1;}
+	50% { opacity: 0.5;}
+	100% { opacity: 0; display: none;}
+}
+.MsgAlert {animation-name: fadealert; animation-duration: 1s; animation-timing-function: ease; animation-delay: 3s; animation-iteration-count: 1; animation-fill-mode: forwards; position: absolute; left: 0; top: 80px; width: 100%; text-align: center;}
+/**/
+.PanelHide { display: none!important;}
+
+.BlockPanel {padding: 20px 20px 0; width: 100%; min-height: 358px;background: #fff;}
+
+
+.panel { margin-bottom: 10px;}
+.panel-4 { width: calc(100% - 10px);}
+.panel-3 { width: calc(75% - 10px);}
+.panel-2 { width: calc(50% - 10px);}
+.panel-1 { width: calc(25% - 10px);}
+
+.PanelActive {
+	width: 99.3%!important;
+	max-height: 100%;
+	height: 100%;
+
+	-webkit-transition:none;
+	-moz-transition:none;
+	-o-transition:none;
+	transition:none;
+}
+
+/**/
+.WidthControl { color: #333;font-size: 15px; line-height: 15px; position: absolute; top:23px; left:60px; z-index: 2;}
+
+.WidthControl .fa {color: #ff5e26;font-size: 14px;}
+
+.WidthControl span { display: inline-block; padding-left: 5px; padding-right: 5px;}
+/**/
+.PanelHead { position: relative; text-align: center; min-height: 20px;}
+.PanelHead .Action { position: absolute; right: -7px; top: -8px}
+
+.PanelHead .Action .ActionIcon { color: #878787; border: 1px solid #fff;font-size: 21px; line-height: 22px; padding: 6px 0 0; border-radius: 6px; width: 36px; height: 34px;}
+
+.PanelHead .Action i.open {box-shadow: inset 0 0 2px rgba(0,0,0,.25);background-color: rgba(230,230,230,.9);border: 1px solid #adadad;}
+
+
+.PanelHead .Action .glyphicon-remove { position: relative; top: 8px; right: 7px}
+.LayoutMenu { padding:2px 0px; left: auto; right: 0; text-align:left; border: 1px solid #c6c6c6; width: 176px; margin-top: 4px;}
+.LayoutMenu .MenuItem { border-bottom: 1px solid #f0f0f0; height: 32px; position: relative; padding-left: 11px;}
+.LayoutMenu .MenuItem:last-child { border-bottom: none;}
+.LayoutMenu .MenuItem .Label { color: #333; display: inline-block; padding-top: 7px; font-size: 13px;}
+.LayoutMenu .MenuItem .StickThis { position: absolute; top: 7px; right: 9px;}
+.LayoutMenu .MenuItem .pagination { margin: 0}
+.LayoutMenu .MenuItem .pagination-sm > li > a,
+.LayoutMenu .MenuItem .pagination-sm > li > span {font-size: 11px; line-height: 13px; padding: 3px 7px 0; color: #333; border: 1px solid #ccc; height: 19px;}
+.LayoutMenu .MenuItem .pagination > .active > a,
+.LayoutMenu .MenuItem .pagination > .active > span,
+.LayoutMenu .MenuItem .pagination > .active > a:hover,
+.LayoutMenu .MenuItem .pagination > .active > span:hover,
+.LayoutMenu .MenuItem .pagination > .active > a:focus,
+.LayoutMenu .MenuItem .pagination > .active > span:focus { background: #e6e6e6; }
+.LayoutMenu .MenuItem .btn-default { background: #fff; height: 19px; text-shadow: none; box-shadow: none;}
+.LayoutMenu .MenuItem .btn-default .fa {top: -4px;}
+.LayoutMenu .MenuItem .btn-xs,
+.LayoutMenu .MenuItem .btn-group-xs > .btn { color: #5e5e5e; padding: 0; width: 35px; font-size: 18px;}
+.LayoutMenu .MenuItem .btn-group-xs > .btn:hover {background: #e6e6e6;}
+.LayoutMenu .MenuItem label.btn-default { font-size: 10px; line-height: 12px; padding: 4px 7px 0; color: #5e5e5e; border: 1px solid #ccc; height: 19px; width: 35px;}
+.LayoutMenu .MenuItem label.btn-default:hover {background: #e6e6e6;}
+.LayoutMenu .MenuItem label.btn-default.active {background: #e6e6e6;}
+.LayoutMenu .MenuItem .Lnk { display: block; margin-left: -11px; text-indent: 11px; height: 32px;}
+.LayoutMenu .MenuItem .Lnk:hover { background: #f5f5f5;}
+
+.PanelHead .Action .glyphicon {color: #9a9a9a;}
+
+.PanelHead .GraphAction { position: absolute; right: 25px; top: 0px}
+
+.PanelHead .GraphAction .fa { font-size: 22px; line-height: 22px;color: #9a9a9a;}
+
+.PanelHead .GraphAction .glyphicon {color: #9a9a9a;}
+
+.PanelHead .re-draw { color: #878786;position: absolute; left: 0; top: 0; font-size: 18px; line-height: 18px;}
+
+.PanelHead input { font-size: 16px; line-height: 18px; text-align: center; margin: 0 auto; padding: 0; border: none; padding-top: 2px; background: transparent; width: 80%;}
+.PanelHead .Txt { display: none;}
+/**/
+.PanelEdit { margin-top: 20px;}
+.PanelEdit .Time { background: #e7e7e7;width: 100%; display: table; table-layout: fixed; height: 64px; margin-bottom: 12px;}
+
+.PanelEdit .Time h3 { font-family: "DINPro-medium", Arial, Helvetica, sans-serif; font-size: 22px; line-height: 25px; margin: 0; padding: 0; display: table-cell; width: 11.4062%; text-indent: 16px; border-right: 1px solid #c6c6c6; vertical-align: middle;}
+.PanelEdit .Time .ChooseOne { display: table-cell; width: 19.6093%; border-right: 1px solid #c6c6c6; vertical-align: middle;}
+.PanelEdit .Time .ChooseOne label { padding-left: 20px; padding-right: 20px; display: inline-block; margin: 0; cursor: pointer;}
+.PanelEdit .Time .ChooseOne span { margin-left: 8px; font-size: 13px; line-height: 15px; position: relative; top: -2px}
+.PanelEdit .ShowTime {display: table-cell; width: 68.9843%; vertical-align: middle;}
+.PanelEdit .Time .ActionBlock { float: left;}
+.PanelEdit .Time .AbsoluteTime {padding-left: 18px;}
+.PanelEdit .Time .AbsoluteTime p { margin-left: 20px; width: 230px}
+.PanelEdit .Time .AbsoluteTime label { display: table-cell; vertical-align: middle; margin-bottom: 0; font-weight: normal; font-size: 13px; line-height: 15px; padding-right: 10px;}
+.PanelEdit .Time .AbsoluteTime .btn-default { background-image: none; background-color: #fff;}
+.PanelEdit .Time .RelativeTime { padding-left: 6px }
+.PanelEdit .Time .RelativeTime p { margin-left: 32px;}
+.PanelEdit .Time .RelativeTime label { display: table-cell; vertical-align: middle; margin-bottom: 0; font-weight: normal; font-size: 13px; line-height: 15px; padding-right: 10px;}
+.PanelEdit .Time .RelativeTime span { display: table-cell; vertical-align: middle; font-size: 13px; line-height: 15px; padding-left: 10px;}
+.PanelEdit .Time .RelativeTime input[type="text"] { width: 40px; border-radius: 4px;}
+.PanelEdit .Time .RelativeTime select { width: 114px; border-radius: 4px; margin-left: 6px; font-size: 13px;}
+/**/
+.PanelEdit .input-group { margin: 0;}
+.PanelEdit .dropdown-menu {min-width: 310px; padding-left: 8px; padding-right: 8px;}
+.PanelEdit .dropdown-menu th,
+.PanelEdit .dropdown-menu td {font-size: 12px; line-height: 14px; color: #333}
+.PanelEdit .dropdown-menu tr.h6 th {padding-top: 4px; padding-bottom: 4px}
+.PanelEdit .dropdown-menu .btn-info {color: #ff5e26}
+.PanelEdit .dropdown-menu .btn-group .btn-info {color: #fff}
+.PanelEdit .ShowTime .dropdown-menu li { width: 100%}
+/**/
+.PanelEdit .Metrics { background: #e7e7e7;width: 100%; display: table; table-layout: fixed; margin-bottom: 20px; position: relative; padding-top: 15px; padding-bottom: 15px;}
+
+.PanelEdit .Metrics h3 {font-family: "DINPro-medium", Arial, Helvetica, sans-serif; font-size: 22px; line-height: 25px; padding: 0; display: table-cell; width: 11.4062%; text-indent: 16px; vertical-align: top;}
+.PanelEdit .Metrics h3 span {display: block; position: absolute; top: 15px; right: 20px; width: 118px; height: 27px; font-size: 13px; line-height: 15px; text-indent: 0; padding-top: 5px; font-weight: bold;}
+.PanelEdit .Metrics .tabbable { display: table-cell; vertical-align: top; width: 88.5937%}
+.PanelEdit .Metrics .tab-content { margin-right: 20px; border: 1px solid #ddd; border-top: none;}
+.PanelEdit .Metrics .nav-tabs { margin-right: 20px}
+.PanelEdit .Metrics .nav-tabs > li { margin-right: 0px}
+.PanelEdit .Metrics .nav-tabs:empty {border-bottom: none;}
+.PanelEdit .Metrics .tab-content > .tab-pane { padding-top: 18px; padding-left: 20px; padding-right: 20px; padding-bottom: 20px; background: #fff; border-radius: 0 4px 4px 4px; position: relative;}
+.PanelEdit .Metrics .nav-tabs > li a { font-size: 13px; line-height: 15px; color: #333; background: #fff; margin-right: 0; border-color: #ddd #ddd #ddd transparent;}
+.PanelEdit .Metrics .nav-tabs > li.active a { color: #ff5e26; border-color: #ddd #ddd transparent;}
+.PanelEdit .Metrics .tab-pane { position: relative;}
+.PanelEdit .Metrics .Delete { position: absolute; top: 18px; right: 20px; display: block; width: 30px; height: 30px; text-align: center; border: 1px solid #a7a7a7; font-size: 21px; line-height: 23px; color: #444343; border-radius: 4px; padding-bottom: 0; padding-top: 2px;}
+.PanelEdit .Metrics .navbar-form { margin: 0; padding: 0; position: relative;}
+.PanelEdit .Metrics .SearchBox input { width: 340px; height: 30px; font-size: 13px; line-height: 15px; color: #333; padding-left: 10px; padding-right: 10px;}
+.PanelEdit .Metrics .MetricName { display: inline-block; font-size: 16px; line-height: 18px; color: #161616;}
+.PanelEdit .Metrics .EditMetricName { display: inline-block; width: 30px; height: 30px; text-align: center; border: 1px solid #a7a7a7; font-size: 21px; line-height: 23px; color: #444343; border-radius: 4px; padding-bottom: 0; padding-top: 2px; margin-left: 10px; cursor: pointer; margin-bottom: 16px;}
+.PanelEdit .Metrics .MetricsOptions { background: #eeeeee; border: 1px solid #c3c3c3; display: table; table-layout: fixed; width: 100%}
+.PanelEdit .Metrics .MetricsOptions .nav-tabs { margin-right: 0; width: 191px; display: table-cell; vertical-align: top; background: #fff; border-right: 1px solid #ddd; border-bottom: none; min-height: 200px}
+.PanelEdit .Metrics .MetricsOptions .nav-tabs > li { width: 100%; border: none; margin-bottom: 0}
+.PanelEdit .Metrics .MetricsOptions .nav-tabs > li a { border: none; border-radius: 0; border-bottom: 1px solid #ddd}
+.PanelEdit .Metrics .MetricsOptions .nav-tabs > li a .badge {font-family:Arial;color:#5a5a5a;font-size:11px;font-weight: bold;background-color:#e7e7e7;border: 1px solid white;}
+.PanelEdit .Metrics .MetricsOptions .nav-tabs > li.active a .badge { background: #fff;}
+.PanelEdit .Metrics .MetricsOptions .nav-tabs > li.active a { border: none; border-radius: 0; font-weight: bold; border-bottom: 1px solid #ddd; background: #eeeeee;}
+.PanelEdit .Metrics .MetricsOptions .nav-tabs > li:last-child { margin-bottom: 43px;}
+.PanelEdit .Metrics .MetricsOptions .tab-content { margin-right: 0; display: table-cell; border: none; vertical-align: top; padding: 12px;}
+.PanelEdit .Metrics .MetricsOptions .tab-content > .tab-pane { border-radius: 0; background: none; padding: 0}
+.PanelEdit .Metrics .MetricsOptions .tabbable { width: 100%; border: none;}
+.PanelEdit .Metrics .MetricsOptions .tab-content textarea { width: 500px; font-size: 13px; line-height: 15px; color: #333;}
+.PanelEdit .Metrics .MetricsOptions .tab-content .panel-group { width: 500px;}
+.PanelEdit .Metrics .MetricsOptions .tab-content .panel-group li { padding: 0; display: inline-block; margin: 0; height: 26px; padding-left: 8px; padding-right: 8px; font-size: 13px; line-height: 15px; color: #6a6a6a; padding-top: 5px; margin-right: 4px; margin-bottom: 4px;}
+.PanelEdit .Metrics .AddBar { padding-bottom: 10px;}
+.PanelEdit .Metrics .AddBar .dropdown .btn-danger { color: #fff; font-size: 13px; line-height: 15px; font-weight: bold; height: 27px; padding-top: 5px;}
+.PanelEdit .Metrics .AddBar .dropdown .btn-danger .caret { margin-left: 14px;}
+/*.PanelEdit .Metrics .AddBar .dropdown .btn-default .fa { margin-right: 6px;}*/
+.PanelEdit .Metrics .AddBar .dropdown .dropdown-menu { width: 180px; min-width: 180px; padding-left: 0; padding-right: 0}
+.PanelEdit .Metrics .AddBar .dropdown .dropdown-menu li { margin-right: 0; width: 100%;}
+.PanelEdit .Metrics .Bubbles ul { left: -39px; position: relative;} 
+.PanelEdit .Metrics .Bubbles li { background: #fff; padding: 7px 38px 7px 13px; color: #3e3e3e; font-size: 13px; line-height: 15px; border-radius: 5px; position: relative; margin-bottom: 10px; display: inline-block; margin-right: 10px;} 
+.PanelEdit .Metrics .CloseBubble { width: 10px; height: 10px; position: absolute; display: block; top: 13px; right: 14px; font-size: 15px; color: #3e3e3e;}
+.PanelEdit .Metrics .BubbleName { font-size: 13px; line-height: 15px; color: #3e3e3e; padding-right: 20px; display: table-cell; text-transform: capitalize; vertical-align: middle;}
+.PanelEdit .Metrics .BubbleGroup { display: table-cell; vertical-align: middle;}
+.PanelEdit .Metrics .BubbleGroup ul { position: static;}
+.PanelEdit .Metrics .BubbleGroup li { padding: 0; display: inline-block; margin: 0; height: 26px; padding-left: 8px; padding-right: 8px; font-size: 13px; line-height: 15px; color: #6a6a6a; padding-top: 5px; margin-right: 4px;}
+.PanelEdit .Metrics .BubbleGroup input[type="text"] { height: 26px; font-size: 13px; line-height: 15px; color: #333; width: 77px; padding-left: 7px;}
+.PanelEdit .Metrics .BubbleGroup select { height: 26px; width: 114px; padding-left: 7px; font-size: 13px; line-height: 15px; color: #333;}
+
+.GraphResult { width: 100%; float: none; clear: both; margin-top: 8px;position:relative;}
+
+.PanelEditor .GraphResult {padding-bottom: 30px; margin-bottom: 15px;}
+.PanelEditor .graphTooltip, .PanelEditor .graphLegend {display: none!important;}
+/**/
+.Dashboard .Controls {float: none; clear: both;}
+.Dashboard .Controls .btn { border: 1px solid #3d4650; width: 104px; background-image: linear-gradient(to bottom, #686f77 0px, #3d4650 100%); color: #fff; text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.2); height: 34px;}
+.Dashboard .Controls .btn-default:hover,
+.Dashboard .Controls .btn-default:focus { background-color: #3d4650}
+.btn.SavePanel { margin-left: 165px; top: -47px; position: relative; z-index: 1; border: 1px solid #2c7f2d; width: 104px; background-image: linear-gradient(to bottom, #6ca76c 0px, #418e42 100%); color: #fff; text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.2); height: 34px;}
+.btn-default.SavePanel:hover,
+.btn-default.SavePanel:focus { background-color: #6ca76c}
+@media screen and (max-width: 1600px){
+	.btn.SavePanel { margin-left: 145px}
+}
+
+.graph {
+	width: 100%;
+	height: 300px;
+	position: relative;
+}
+
+.graphSubtitle {
+	color: #6d91c6;
+	font-size: small;
+	text-align: center;
+}
+
+.legend td{
+	padding:2px;
+}
+
+.graphNoData {
+	position: relative;
+	width: 100%;
+	height: 329px;
+	margin-top: -8px;
+}
+
+.graphNoData p {
+	position: absolute;
+	top:49%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 15px;
+	line-height: 17px;
+	margin-bottom: 0;
+	color: #a4a4a4;
+}
+
+.graphTooltip {
+	position: absolute;
+	display: none;
+	border: 1px solid #ccc;
+	padding: 13px;
+	background-color: #ffffff;
+	font-size: 13px;
+	line-height: 15px;
+	color: #5f5f5f;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	opacity: 1;
+	z-index: 100;
+	-webkit-box-shadow: 0 3px 7px 0 rgba(0,0,0,.3);
+	box-shadow: 0 3px 7px 0 rgba(0,0,0,.3);
+}
+
+.graphLegend {
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.6);
+	padding-left: 40px;
+	overflow: auto;
+}
+
+.graphLegend table tr, .graphLegend table td {
+	display: inline-block;
+	padding: 5px;
+	font-weight: bold;
+}
+
+.graphLegend .legendColorBox > div {
+	padding:0!important;
+	margin-left: 10px;
+	border: none!important;
+}
+
+.graphLegend .legendColorBox > div > div {
+	border-radius: 2px;
+}
+
+.metricNameTable input {width: 320px;}
+.cursorWaiting * {cursor: wait;}
+.cursorNormal * {cursor: auto;}
+
+.ui-state-highlight { border: 3px solid #aeaeae; border-radius: 8px; }
+.DrawBtn { border: none; background: #fff no-repeat; width: 21px; height: 26px;}
+.ViewBtn { border: none; background: #fff no-repeat; width: 24px; height: 26px;}
+.SavedMsg {
+	position: absolute;
+	top: 71px;
+	left: 50%;
+	width: 426px;
+	font-size: 14px;
+	line-height: 15px;
+	text-align: center;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	border-radius: 8px;
+	margin-left: -213px;
+	opacity: 1;
+}
+.SavedMsg label { font-weight: normal; margin-bottom: 0}
+
+.SavedMsg.success {
+	background: #dcf2d4;
+	color: #2f7831;
+	border: 1px solid #b7d2ab;
+}
+
+.SavedMsg.error {
+	background-color: #f2dede;
+	color: #a94442;
+	border: 1px solid #ddafb6;
+}
+
+.veil {
+	@include background-gradient(rgba(255, 255, 255, .99), rgba(255, 255, 255, .6));
+	@include opacity(1);
+	position: absolute;
+	top: calc(50% - 15px);
+	left: calc(50% - 15px);
+	width: 100%;
+	height: 100%;
+	z-index:100;
+	background:url('../images/preloader-light.gif') no-repeat; width: 28px; height: 30px;
+}
+.tooltip-inner { background-color: rgb(85,85,85)!important;font-weight: bold;}
+.tooltip-arrow {border-top-color: rgb(85,85,85)!important;}
+
+.PanelEdit .Time .AbsoluteTime .btn-default {margin-left: 1px;}
+
+.ActionBlock .dropdown-menu {padding:10px;}
+
+
+/***************/
+@media screen and (max-width: 1200px){
+	.panel-4 { width: calc(100% - 10px);}
+	.panel-3 { width: calc(100% - 10px);}
+	.panel-2 { width: calc(50% - 10px);}
+	.panel-1 { width: calc(50% - 10px);}
+}
+@media screen and (max-width: 1000px){
+	.Header { min-height: 107px;}
+	.TopMenu { margin-top: 13px;}
+	.TopMenu .MainMenu { width: auto;}
+	/*.TopMenu .Actions {padding: 13px 0 13px 6px; width: 82px;}*/
+	.TopMenu .Actions {border: medium none; padding: 0; position: absolute; right: 0; top: 50px; width: auto;}
+	.TopMenu .User {margin-right: 5px;}
+	.Dashboard {padding: 120px 1.45% 13px 2.15%;}
+	.panel-4 { width: calc(100% - 10px);}
+	.panel-3 { width: calc(100% - 10px);}
+	.panel-2 { width: calc(100% - 10px);}
+	.panel-1 { width: calc(100% - 10px);}
+	.LayoutMenu li:nth-child(2).MenuItem {display: none;}
+	.PanelEdit .Time h3 { width: 14%}
+	.PanelEdit .Time .ChooseOne { width: 17.5%}
+	.PanelEdit .ShowTime { width: auto;}
+	.PanelEdit .Time .AbsoluteTime p {margin-left: 5px; width: 214px;}
+	.PanelEdit .Metrics h3 { width: 14%}
+	.PanelEdit .Metrics .Bubbles ul {width: 116%;}
+	.PanelEdit .Metrics .MetricsOptions .tab-content textarea { width: 100%; margin-top: 15px;}
+	.btn.SavePanel {margin-left: 132px;}
+	.PanelEdit .Time .RelativeTime p {margin-left: 10px;}
+	.PanelEdit .Time .RelativeTime select {width: 100px;}
+}
+@media screen and (max-width: 750px){
+	.Header {position: relative;}
+	.Logo { width: 100%; text-align: center;}
+	.TopMenu .User {margin-bottom: 10px; margin-right: 0; width: 100%; text-align: center;}
+	.TopMenu .Actions {border: medium none; padding: 16px 0 0; width: 100%; margin-right: 0; position: static; text-align: center;}
+	.TopMenu .MainMenu {margin-right: 0; width: 100%;}
+	.TopMenu .Combo input { width: 90%}
+	.TopMenu .Combo input + a { margin-left: 5px;}
+	.Dashboard {padding: 13px 1.45% 13px 2.15%;}
+	.Dashboard .Head {width: 100%;}
+	.DashTitle { width: 90%}
+	.RadioActions { float: none !important; margin-top: 10px;}
+	.Panels > li { margin-right: 0}
+	.BlockPanel { padding: 15px 15px 0;}
+	.PanelEdit .Time { display: block; height: auto; padding-top: 10px; padding-bottom: 10px;}
+	.PanelEdit .Time h3 { display: block; width: 100%; border: none; padding-top: 10px; padding-bottom: 10px;}
+	.PanelEdit .Time .ChooseOne { display: block; width: 100%; border: none;}
+	.PanelEdit .ShowTime { display: block; width: 100%;}
+	.PanelEdit .Time .ActionBlock { float: none; margin-bottom: 10px;}
+	.PanelEdit .Time .AbsoluteTime { padding-top: 10px; padding-bottom: 10px;}
+	.PanelEdit .Time .AbsoluteTime label { width: 50px}
+	.PanelEdit .Time .AbsoluteTime p {width: 232px;}
+	.PanelEdit .Time .AbsoluteTime .ActionBlock { margin-bottom: 10px;}
+	.PanelEdit .Time .RelativeTime { padding-top: 10px; padding-bottom: 10px;}
+	.PanelEdit .Time .RelativeTime p {margin-left: 17px;}
+	.PanelEdit .Time .RelativeTime label { width: 50px}
+	.PanelEdit .Metrics h3 { width: 100%; display: block; margin-top: 0}
+	.PanelEdit .Metrics .tabbable { width: 100%; display: block;}
+	.PanelEdit .Metrics .nav-tabs {margin-right: 2px; margin-left: 2px;}
+	.PanelEdit .Metrics .tab-content > .tab-pane { padding: 20px 5px 5px;}
+	.PanelEdit .Metrics .tab-content { margin-right: 2px; margin-left: 2px;}
+	.PanelEdit .Metrics .MetricName {width: 85%; word-break: break-all; position: relative; padding-right: 16%; padding-bottom: 15px;}
+	.PanelEdit .Metrics .Delete { right: 6px; top: 14px;}
+	.PanelEdit .Metrics .EditMetricName { margin-bottom: 0px; margin-left: 0px; margin-top: 0px; position: absolute; right: 0; top: -6px;}
+	.PanelEdit .Metrics .SearchBox input { width: 100%}
+	.PanelEdit .Metrics .MetricsOptions .nav-tabs { width: 100%; display: block; min-height: 100%;}
+	.PanelEdit .Metrics .MetricsOptions .nav-tabs > li:last-child { margin-bottom: 0}
+	.PanelEdit .Metrics .MetricsOptions .tab-content { width: 1005; display: block; padding: 12px 5px;}
+}
+
+/* Theme dark */
+body.dark { background: #161616; color: #e6e6e6;}
+.dark .Dashboard .Head .HeadIcon {color: #e6e6e6; border: 1px solid #e6e6e6 }
+.dark .DashTitle { color: #e6e6e6}
+.dark .DashTitle a {color: #e6e6e6;}
+.dark .DashTitle .fa { color: #333;}
+.dark .Dashboard .Head .btn { border-color: #161616;}
+.dark .btn-default { background-color: #333;}
+.dark .btn-default { background-image: linear-gradient(to bottom, #333 0px, #333 100%);text-shadow: 0 1px 0 #000; color: #bfbfbf; box-shadow: none;}
+.dark .btn-default:active,
+.dark .btn-default.active { background-image: linear-gradient(to bottom, #575757 0px, #575757 100%); color: #bfbfbf;}
+.dark .btn-default:hover,
+.dark .btn-default:focus { background-color: #333}
+.dark .btn-default.active:hover,
+.dark .btn-default.active:focus { background-color: #575757}
+
+.dark .Panels li.panel { background: #1f1f1f;}
+.dark .BlockPanel { background: #1f1f1f;}
+.dark .PanelHead .re-draw { color: #666;}
+
+.dark .PanelHead .Action .ActionIcon {border: 1px solid #1f1f1f; color: #666;}
+.dark .graphNoData p {color: #404040;}
+
+.dark .PanelHead .Action i.open { background: #272727; color: #666; border: 1px solid #333;}
+.dark .dropdown-menu { background: #333;}
+.dark .LayoutMenu { border: 1px solid #333;}
+.dark .LayoutMenu .MenuItem {border-bottom: 1px solid #474747;}
+.dark .LayoutMenu .MenuItem:last-child { border-bottom: none;}
+.dark .LayoutMenu .MenuItem .Label { color: #e6e6e6}
+.dark .LayoutMenu .MenuItem .Lnk:hover { background: #575757;}
+.dark .LayoutMenu .MenuItem .pagination-sm > li > a,
+.dark .LayoutMenu .MenuItem .pagination-sm > li > span { border: 1px solid #575757; color: #e6e6e6;}
+.dark .pagination > li > a,
+.dark .pagination > li > span { background-color: #333;}
+.dark .LayoutMenu .MenuItem .pagination > .active > a,
+.dark .LayoutMenu .MenuItem .pagination > .active > span,
+.dark .LayoutMenu .MenuItem .pagination > .active > a:hover,
+.dark .LayoutMenu .MenuItem .pagination > .active > span:hover,
+.dark .LayoutMenu .MenuItem .pagination > .active > a:focus,
+.dark .LayoutMenu .MenuItem .pagination > .active > span:focus { background: #575757;}
+.dark .LayoutMenu .MenuItem .btn-xs,
+.dark .LayoutMenu .MenuItem .btn-group-xs > .btn { color: #fff;}
+.dark .LayoutMenu .MenuItem .btn-group-xs > .btn:hover {background: #575757;}
+.dark .LayoutMenu .MenuItem .btn-default { background: #333;}
+.dark .LayoutMenu .MenuItem label.btn-default:hover {background: #575757;}
+.dark .LayoutMenu .MenuItem label.btn-default.active {background: #575757;}
+.dark .btn-default { border-color: #575757;}
+.dark .LayoutMenu .MenuItem label.btn-default { border: 1px solid #575757; color: #e6e6e6;}
+.dark .LayoutMenu .MenuItem .btn-default {background: #333;}
+.dark .LayoutMenu .MenuItem label.btn-default.active { background: #575757}
+.dark .PanelEdit .Time { background: #383838;}
+.dark .PanelEdit .Time h3 { border-right: 1px solid #1f1f1f}
+.dark .PanelEdit .Time .ChooseOne {border-right: 1px solid #1f1f1f}
+.dark .form-control { border: 1px solid #383838;}
+.dark .btn-default {border-color: #383838;}
+.dark .PanelEdit .Time .AbsoluteTime .btn-default {margin-left: -1px;}
+.dark .PanelEdit .Metrics { background: #383838;}
+.dark .nav-tabs {border-bottom: 1px solid #383838;}
+.dark .PanelEdit .Metrics .tab-content { border: none;}
+.dark .PanelEdit .Metrics .nav-tabs > li a {background: #828282; border-color: #b2b2b2 #b2b2b2 #b2b2b2 transparent; color: #333;}
+.dark .PanelEdit .Metrics .nav-tabs > li.active a { background: #b2b2b2; color: #333; border-color: #b2b2b2 #b2b2b2 transparent;}
+.dark .PanelEdit .Metrics .tab-content > .tab-pane { background: #b2b2b2}
+
+.dark .PanelEdit .Metrics .EditMetricName { background: #eeeeee; border: 1px solid #858585; color: #444343;}
+.dark .PanelEdit .Metrics .Delete {background: #eeeeee; border: 1px solid #858585; color: #444343;}
+.dark .PanelEdit .Metrics .MetricsOptions { background: #eeeeee; border: 1px solid #c3c3c3 ;}
+.dark .PanelEdit .Metrics .MetricsOptions .nav-tabs > li { background: #fff;}
+
+.dark .PanelEdit .MetricsOptions .nav-tabs > li a {background: #fff; border-color: #c3c3c3 #c3c3c3 #c3c3c3 transparent; color: #2a2a2a;}
+.dark .PanelEdit .MetricsOptions .nav-tabs > li.active a {background: #eeeeee; border-color: #c3c3c3 #c3c3c3 #c3c3c3 transparent; color: #f65d32;}
+.dark .PanelEdit .Metrics .AddBar { background: #eeeeee}
+.dark .PanelEdit .Metrics .Bubbles { background: #eeeeee}
+.dark .PanelEdit .MetricsOptions .tab-content > .tab-pane { background: #eeeeee}
+.dark .PanelEdit .Metrics .AddBar .dropdown .dropdown-menu { background: #fff; border: 1px solid #b3b3b3;}
+.dark .SearchBox + div .dropdown-menu {background: #fff; border: 1px solid #b3b3b3;}
+
+.dark .dropdown-menu table .btn-default,
+.dark .dropdown-menu table .btn-default { color: #333; text-shadow: none;}
+.dark .dropdown-menu table .btn-default:active,
+.dark .dropdown-menu table .btn-default.active { color: #333; text-shadow: none;}
+
+/*.dark .PanelEdit .Time { background: #665F5F;}
+.dark .PanelEdit .Metrics { background: #665F5F;}*/
+.dark .Dashboard .Head .HeadIcon { color: #e6e6e6;}
+.dark .flot-text {color:rgb(138, 128, 128)!important;}
+.dark .graphLegend {background-color:rgba(31, 31, 31, 0.4);}
+.dark .legendLabel {color:#e6e6e6;}
+.dark .veil {background:url('../images/preloader-dark.gif')}
+.dark .Dashboard .Controls .btn {background-image: linear-gradient(to bottom, #626262 0px, #353535 100%); border: 1px solid #000;}
+.dark .Dashboard .Controls .btn-default:hover,
+.dark .Dashboard .Controls .btn-default:focus { background-color: #353535; }
+.dark .SavedMsg.success {background: #1b2716; color: #2f7831; border: 1px solid #2b6413;}
+.dark .SavedMsg.error {	background-color: #311919; color: #a94442; border: 1px solid #982538;}
+

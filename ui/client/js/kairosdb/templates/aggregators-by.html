@@ -1,0 +1,93 @@
+<div class="AddBar">
+	<div class="dropdown">
+		 <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown">
+		    Add New<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu3">
+		  <li role="presentation"><a href="" ng-click="add('avg')">Avg</a></li>
+		  <li role="presentation"><a href="" ng-click="add('dev')">Dev</a></li>
+		  <li role="presentation"><a href="" ng-click="add('div')">Div</a></li>
+		  <li role="presentation"><a href="" ng-click="add('min')">Min</a></li>
+		  <li role="presentation"><a href="" ng-click="add('max')">Max</a></li>
+		  <li role="presentation"><a href="" ng-click="add('rate')">Rate</a></li>
+		  <li role="presentation"><a href="" ng-click="add('sampler')">Sampler</a></li>
+		  <li role="presentation"><a href="" ng-click="add('sum')">Sum</a></li>
+		  <li role="presentation"><a href="" ng-click="add('scale')">Scale</a></li>
+		  <li role="presentation"><a href="" ng-click="add('count')">Count</a></li>
+		  <li role="presentation"><a href="" ng-click="add('least_squares')">Least Squares</a></li>
+		  <li role="presentation"><a href="" ng-click="add('percentile')">Percentile</a></li>
+		</ul>
+	</div>
+</div>
+<div class="Bubbles">
+	<ul>
+		
+		<li ng-repeat="aggregator in metric.aggregators">
+
+			<a ng-click="remove($index)" tabindex="1" class="CloseBubble">
+			   <i class="fa fa-times"></i>
+			</a>
+
+			<span class="BubbleName">{{unslug(aggregator.name)}}</span>
+			
+			<span ng-if="aggregator.name == 'avg'" class="BubbleGroup">
+				<input ng-model="aggregator.sampling.value" type="text" placeholder="Sampling">
+				<select ng-model="aggregator.sampling.unit" ng-options="u for u in unitsList"></select>
+			</span>
+
+			<span ng-if="aggregator.name == 'dev'" class="BubbleGroup">
+				<input ng-model="aggregator.sampling.value" type="text" placeholder="Sampling">
+				<select ng-model="aggregator.sampling.unit" ng-options="u for u in unitsList"></select>
+			</span>
+
+			<span ng-if="aggregator.name == 'div'" class="BubbleGroup">
+				<input ng-model="aggregator.divisor" type="text" placeholder="Sampling">	
+			</span>
+
+			<span ng-if="aggregator.name == 'min'" class="BubbleGroup">
+				<input ng-model="aggregator.sampling.value" type="text" placeholder="Sampling">
+				<select ng-model="aggregator.sampling.unit" ng-options="u for u in unitsList"></select>
+			</span>
+
+			<span ng-if="aggregator.name == 'max'" class="BubbleGroup">
+				<input ng-model="aggregator.sampling.value" type="text" placeholder="Sampling">
+				<select ng-model="aggregator.sampling.unit" ng-options="u for u in unitsList"></select>
+			</span>
+
+			<span ng-if="aggregator.name == 'rate'" class="BubbleGroup">
+				<select ng-model="aggregator.unit" ng-options="u for u in unitsList"></select>
+			</span>
+
+			<span ng-if="aggregator.name == 'sampler'" class="BubbleGroup">
+				<select ng-model="aggregator.unit" ng-options="u for u in unitsList"></select>				
+			</span>
+
+			<span ng-if="aggregator.name == 'sum'" class="BubbleGroup">
+				<input ng-model="aggregator.sampling.value" type="text" placeholder="Sampling">
+				<select ng-model="aggregator.sampling.unit" ng-options="u for u in unitsList"></select>
+			</span>
+
+			<span ng-if="aggregator.name == 'scale'" class="BubbleGroup">
+				<input ng-model="aggregator.factor" type="text" placeholder="Factor">
+			</span>
+
+			<span ng-if="aggregator.name == 'count'" class="BubbleGroup">
+				<input ng-model="aggregator.sampling.value" type="text" placeholder="Sampling">
+				<select ng-model="aggregator.sampling.unit" ng-options="u for u in unitsList"></select>
+			</span>
+
+			<span ng-if="aggregator.name == 'least_squares'" class="BubbleGroup">
+				<input ng-model="aggregator.sampling.value" type="text" placeholder="Sampling">
+				<select ng-model="aggregator.sampling.unit" ng-options="u for u in unitsList"></select>
+			</span>
+
+			<span ng-if="aggregator.name == 'percentile'" class="BubbleGroup">
+				<input ng-model="aggregator.percentile" type="text" placeholder="Percentile">
+				<select ng-model="aggregator.sampling.unit" ng-options="u for u in unitsList"></select>
+				<input ng-model="aggregator.sampling.value" type="text" placeholder="Sampling">
+			</span>
+
+		</li>
+
+	</ul>
+</div>

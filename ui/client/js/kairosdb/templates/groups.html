@@ -1,0 +1,55 @@
+<div class="AddBar">
+	<div class="dropdown">
+		 <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown">
+		    Add New<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu3">
+		  <li role="presentation"><a href="" ng-click="add('tag')">New Tag</a></li>
+		  <li role="presentation"><a href="" ng-click="add('time')">New Time</a></li>
+		  <li role="presentation"><a href="" ng-click="add('value')">New Value</a></li>
+		</ul>
+	</div>
+</div>
+<div class="Bubbles">
+	<ul>
+		
+		<li ng-repeat="group in metric.groups">
+
+
+			<a ng-click="remove($index)" tabindex="1" class="CloseBubble">
+			    <i class="fa fa-times"></i>
+			</a>
+
+			<span class="BubbleName">{{group.name}}</span>
+
+			<span ng-if="group.name == 'tag'"  class="BubbleGroup">
+
+				<ul class="tags">
+					<li ng-repeat="(tagName,tagValues) in tagsList" ng-click="manageTagInGroup(group,tagName)" style="color:{{group.tags.indexOf(tagName) == -1 ? '#6a6a6a':'#ff5e26'}}; border-color:{{group.tags.indexOf(tagName) == -1 ? '#c6c6c6':'#ff5e26'}}; background-color:{{group.tags.indexOf(tagName) == -1 ? '#fff':'rgba(246,93,50,0.1)'}};" class="tag">
+						{{tagName}}
+					</li>
+				</ul>
+
+			</span>
+
+			<span ng-if="group.name == 'time'" class="BubbleGroup">
+
+				<input ng-model="group.range_size.value" type="text" placeholder="Units">
+
+				<select ng-model="group.range_size.unit" ng-options="u for u in unitsList"></select>
+				
+				<input ng-model="group.group_count" type="text" placeholder="Size">
+
+			</span>
+
+			<span ng-if="group.name == 'value'" class="BubbleGroup" >
+				<input type="text" placeholder="target size"
+				ng-model="group.range_size" >
+			</span>
+
+		</li>
+
+	</ul>
+</div>
+	
+

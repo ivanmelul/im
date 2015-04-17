@@ -1,0 +1,14 @@
+<div>
+	<div class="modal-header">
+		<button ng-click="modalInstance.dismiss('continue')" type="button" class="close"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+		<h4 class="modal-title">{{title}}</h4>
+	</div>
+	<div class="modal-body">
+		{{message}}
+	</div>
+	<div class="modal-footer">
+		<button ng-click="modalInstance.dismiss('continue')" type="button" class="btn btn-default" data-dismiss="modal">Continue Editing</button>
+		<button ng-if="who == 'new'" ng-click="newDash()" type="button" class="btn btn-danger">New</button>
+		<button ng-if="who == 'select'" ng-click="selectDash(dashboard)" type="button" class="btn btn-danger">Select Dashboard</button>
+	</div>
+</div>
